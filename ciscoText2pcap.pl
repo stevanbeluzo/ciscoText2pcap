@@ -4,14 +4,3965 @@ use warnings;
 use Data::Dumper;
 
 #Convert a text dump like this:
-#12:35:21.717 EET Apr 24 2015 : IPv4 LES CEF    : Ce0 None
-#
-#87526540:                            45C0004C              E@.L
-#87526550: 00000000 FD11C63E 0A303001 AC1F1052  ....}.F>.00.,..R
-#87526560: 007B007B 00385EBF 24040AEE 00000DEA  .{.{.8^?$..n...j
-#87526570: 000028A4 C1E767CD D8E48CD6 519D50B0  ..($AggMXd.VQ.P0
-#87526580: D8E48CD9 A9855D94 D8E48CD9 C161FAF9  Xd.Y).].Xd.YAazy
-#87526590: 00                                   .
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.09.11 11:19:17 =~=~=~=~=~=~=~=~=~=~=~=
+
+que-rtr-02#
+que-rtr-02#
+que-rtr-02#show monitor capture buffer BUF dump 
+04:37:20.660 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1D8  .?.>u..?..E@.(aX
+3CBDDA40: 4000FF06 88B70ADE 7D620ADE 7D6100B3  @....7.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2315CE5A 6FFB5010 3BAA25C4  .Z?n#.NZo{P.;*%D
+3CBDDA60: 00000000 00000000 00                 .........       
+
+04:37:24.755 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C633C  .?.>u..?..E@.<c<
+3CBDDA40: 4000FF06 06B00ADE 7DAA0ADE 7DA9633C  @....0.^}*.^})c<
+3CBDDA50: 00B30085 686972C3 AA5DA010 3AB50BDE  .3..hirC*] .:5.^
+3CBDDA60: 00001312 BE26D526 FBB7C5C2 E54E4731  ....>&U&{7EBeNG1
+3CBDDA70: 00                                   .               
+
+04:37:25.032 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC209  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE4B0ADE 79760ADE 7975C93F  @....K.^yv.^yuI?
+3CBDDA50: 00B37877 124BD90C 7D44A010 3FDAED8C  .3xw.KY.}D .?Zm.
+3CBDDA60: 00001312 9FD8BDCC 4D90961E F15E6CF9  .....X=LM...q^ly
+3CBDDA70: 00                                   .               
+
+04:37:25.253 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32C3  l?.>u..?..E@.O2C
+3CBDDA40: 40000106 FCBFC0A8 640BC0A8 640AA504  @...|?@(d.@(d.%.
+3CBDDA50: 00B36B14 140C6395 8959A018 3A818FD6  .3k...c..Y .:..V
+3CBDDA60: 00001312 080FFD9D 8FB94A89 537F13AE  ......}..9J.S...
+3CBDDA70: 00                                   .               
+
+04:37:27.301 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEBE  0G.>u..?..E@.On>
+3CBDDA40: 40000106 42230AAA 995A0AAA 995900B3  @...B#.*.Z.*.Y.3
+3CBDDA50: E41C725A AA407E3D 9A7EA018 3CBCE2F6  d.rZ*@~=.~ .<<bv
+3CBDDA60: 00001312 8850E411 76782581 E091169F  .....Pd.vx%.`...
+3CBDDA70: 00                                   .               
+
+04:37:29.349 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1D9  .?.>u..?..E@.;aY
+3CBDDA40: 4000FF06 88A30ADE 7D620ADE 7D6100B3  @....#.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2315CE5A 6FFB5018 3BAA2196  .Z?n#.NZo{P.;*!.
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+ --More--         
+04:37:33.444 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7328  .?.>u..?..E@.Os(
+3CBDDA40: 4000FF06 F7380ADE 7D660ADE 7D6500B3  @...w8.^}f.^}e.3
+3CBDDA50: D3C7FC09 FD74F485 245AA018 3FB4CB5B  SG|.}tt.$Z .?4K[
+3CBDDA60: 00001312 F30F1D94 7B0C9682 B959E79B  ....s...{...9Yg.
+3CBDDA70: 00                                   .               
+
+04:37:33.448 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF57E  l?.>u..?..E@.Ou~
+3CBDDA40: 40000106 7A630ADE 79A60ADE 79A500B3  @...zc.^y&.^y%.3
+3CBDDA50: 9B4A065A A601A74A 6B46A018 3A711C97  .J.Z&.'JkF .:q..
+3CBDDA60: 00001312 DB00263D E3C9A30C FD6054BB  ....[.&=cI#.}`T;
+3CBDDA70: 00                                   .               
+
+04:37:35.492 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F633D  .?.>u..?..E@.Oc=
+3CBDDA40: 4000FF06 069C0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 686972C3 AA5DA018 3AB5B416  .3..hirC*] .:54.
+3CBDDA60: 00001312 43B2C66D FD699EAC 588A14F3  ....C2Fm}i.,X..s
+3CBDDA70: 00                                   .               
+
+04:37:36.028 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 006CE1DA  .?.>u..?..E@.laZ
+3CBDDA40: 4000FF06 88710ADE 7D620ADE 7D6100B3  @....q.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2328CE5A 70435018 3B623490  .Z?n#(NZpCP.;b4.
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.029 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 006297E1  l?.>u..?..E@.b.a
+3CBDDA40: 40000106 D8550ADE 79720ADE 79714033  @...XU.^yr.^yq@3
+3CBDDA50: 00B356BD 0D64C787 69AB5018 3CB04A24  .3V=.dG.i+P.<0J$
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.232 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1DB  .?.>u..?..E@.(a[
+3CBDDA40: 4000FF06 88B40ADE 7D620ADE 7D6100B3  @....4.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 236CCE5A 705D5010 3B48256D  .Z?n#lNZp]P.;H%m
+ --More--         3CBDDA60: 00000000 00000000 FF                 .........       
+
+04:37:36.249 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEBF  0G.>u..?..E@.<n?
+3CBDDA40: 40000106 42350AAA 995A0AAA 995900B3  @...B5.*.Z.*.Y.3
+3CBDDA50: E41C725A AA537E3D 9AAAA010 3C90244E  d.rZ*S~=.* .<.$N
+3CBDDA60: 00001312 168193F6 D685207C 270D50A6  .......vV. |'.P&
+3CBDDA70: 00                                   .               
+
+04:37:36.253 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0070E1DC  .?.>u..?..E@.pa\
+3CBDDA40: 4000FF06 886B0ADE 7D620ADE 7D6100B3  @....k.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 236CCE5A 705D5018 3B48309E  .Z?n#lNZp]P.;H0.
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.252 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004297E2  l?.>u..?..E@.B.b
+3CBDDA40: 40000106 D8740ADE 79720ADE 79714033  @...Xt.^yr.^yq@3
+3CBDDA50: 00B356BD 0D9EC787 69AB5018 3CB00085  .3V=..G.i+P.<0..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.262 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0042E1DD  .?.>u..?..E@.Ba]
+3CBDDA40: 4000FF06 88980ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23B4CE5A 70A55018 3B009199  .Z?n#4NZp%P.;...
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.260 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 006697E3  l?.>u..?..E@.f.c
+3CBDDA40: 40000106 D84F0ADE 79720ADE 79714033  @...XO.^yr.^yq@3
+3CBDDA50: 00B356BD 0DB8C787 69C55018 3C964622  .3V=.8G.iEP.<.F"
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.265 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004297E4  l?.>u..?..E@.B.d
+3CBDDA40: 40000106 D8720ADE 79720ADE 79714033  @...Xr.^yr.^yq@3
+ --More--         3CBDDA50: 00B356BD 0DF6C787 6A035018 3C58002D  .3V=.vG.j.P.<X.-
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:37:36.451 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEC0  0G.>u..?..E@.<n@
+3CBDDA40: 40000106 42340AAA 995A0AAA 995900B3  @...B4.*.Z.*.Y.3
+3CBDDA50: E41C725A AA537E3D 9B2EA010 3C0C97EA  d.rZ*S~=.. .<..j
+3CBDDA60: 00001312 2BD2F1A7 A0F78B66 58D93FD5  ....+Rq' w.fXY?U
+3CBDDA70: 00                                   .               
+
+04:37:36.464 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1DE  .?.>u..?..E@.(a^
+3CBDDA40: 4000FF06 88B10ADE 7D620ADE 7D6100B3  @....1.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23CECE5A 70BF5010 3AE6250B  .Z?n#NNZp?P.:f%.
+3CBDDA60: 00000000 00000000 A0                 ........        
+
+04:37:36.468 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897E5  l?.>u..?..E@.(.e
+3CBDDA40: 40000106 D88B0ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E10C787 6A1D5010 3C3E939E  .3V=..G.j.P.<>..
+3CBDDA60: 00000000 00000000 A0                 ........        
+
+04:37:39.592 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73A3  .?.>u..?..E@.Os#
+3CBDDA40: 4000FF06 BBDAC0A8 650DC0A8 650C8EF2  @...;Z@(e.@(e..r
+3CBDDA50: 00B331EE F1B0174B 2399A018 3AD54221  .31nq0.K#. .:UB!
+3CBDDA60: 00001312 19D7B678 00B86367 429EA6F4  .....W6x.8cgB.&t
+3CBDDA70: 00                                   .               
+
+04:37:41.640 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC20A  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE370ADE 79760ADE 7975C93F  @....7.^yv.^yuI?
+3CBDDA50: 00B37877 124BD90C 7D44A018 3FDA10CF  .3xw.KY.}D .?Z.O
+3CBDDA60: 00001312 BD6DE60C 1DE3CB3C 286FCAFD  ....=mf..cK<(oJ}
+3CBDDA70: 00                                   .               
+
+04:37:46.760 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25E8  3K.>u..?..E@.O%h
+3CBDDA40: 40000106 853BD871 0E72D871 0E7100B3  @....;Xq.rXq.q.3
+ --More--         3CBDDA50: C4C2C418 365C7641 445DA018 3C3775EB  DBD.6\vAD] .<7uk
+3CBDDA60: 00001312 F88441FD 56D0AF1F 665432FF  ....x.A}VP/.fT2.
+3CBDDA70: 00                                   .               
+
+04:38:00.606 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7329  .?.>u..?..E@.<s)
+3CBDDA40: 4000FF06 F74A0ADE 7D660ADE 7D6500B3  @...wJ.^}f.^}e.3
+3CBDDA50: D3C7FC09 FD87F485 246DA010 3FA1FE3C  SG|.}.t.$m .?!~<
+3CBDDA60: 00001312 BF721AAF 48A82F98 3753CB3B  ....?r./H(/.7SK;
+3CBDDA70: 00                                   .               
+
+04:38:04.699 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73A4  .?.>u..?..E@.<s$
+3CBDDA40: 4000FF06 BBECC0A8 650DC0A8 650C8EF2  @...;l@(e.@(e..r
+3CBDDA50: 00B331EE F1C3174B 23ACA010 3AC2A0E9  .31nqC.K#, .:B i
+3CBDDA60: 00001312 AF811DE0 DA07D61E 4FF68833  ..../..`Z.V.Ov.3
+3CBDDA70: 00                                   .               
+
+04:38:10.121 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32C4  l?.>u..?..E@.<2D
+3CBDDA40: 40000106 FCD1C0A8 640BC0A8 640AA504  @...|Q@(d.@(d.%.
+3CBDDA50: 00B36B14 141F6395 896CA010 3A6EDDE0  .3k...c..l .:n]`
+3CBDDA60: 00001312 DD9E093B E5D5C789 2EC59A6D  ....]..;eUG..E.m
+3CBDDA70: 00                                   .               
+
+04:38:11.820 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 006297E6  l?.>u..?..E@.b.f
+3CBDDA40: 40000106 D8500ADE 79720ADE 79714033  @...XP.^yr.^yq@3
+3CBDDA50: 00B356BD 0E10C787 6A1D5018 3C3E4978  .3V=..G.j.P.<>Ix
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:38:11.991 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25E9  3K.>u..?..E@.<%i
+3CBDDA40: 40000106 854DD871 0E72D871 0E7100B3  @....MXq.rXq.q.3
+3CBDDA50: C4C2C418 366F7641 4470A010 3C2448FA  DBD.6ovADp .<$Hz
+3CBDDA60: 00001312 F3790B1E 9EDD7D61 C7060B29  ....sy...]}aG..)
+3CBDDA70: 00                                   .               
+
+04:38:12.020 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+ --More--         3CBDDA30: 933F00BE 751598BF 080045C0 0028E1DF  .?.>u..?..E@.(a_
+3CBDDA40: 4000FF06 88B00ADE 7D620ADE 7D6100B3  @....0.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23CECE5A 71035010 3AA2250B  .Z?n#NNZq.P.:"%.
+3CBDDA60: 00000000 00000000 9E                 .........       
+
+04:38:12.064 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEC1  0G.>u..?..E@.<nA
+3CBDDA40: 40000106 42330AAA 995A0AAA 995900B3  @...B3.*.Z.*.Y.3
+3CBDDA50: E41C725A AA537E3D 9B5AA010 3BE09419  d.rZ*S~=.Z .;`..
+3CBDDA60: 00001312 C6304187 931DCCE4 F229D825  ....F0A...Ldr)X%
+3CBDDA70: 00                                   .               
+
+04:38:12.073 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897E7  l?.>u..?..E@.(.g
+3CBDDA40: 40000106 D8890ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E4AC787 6A575010 3C049364  .3V=.JG.jWP.<..d
+3CBDDA60: 00000000 00000000 93                 .........       
+
+04:38:12.168 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF57F  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A750ADE 79A60ADE 79A500B3  @...zu.^y&.^y%.3
+3CBDDA50: 9B4A065A A614A74A 6B59A010 3A5E3BF2  .J.Z&.'JkY .:^;r
+3CBDDA60: 00001312 20849C43 F8AAA7A0 182550C0  .... ..Cx*' .%P@
+3CBDDA70: 00                                   .               
+
+04:38:12.264 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEC2  0G.>u..?..E@.<nB
+3CBDDA40: 40000106 42320AAA 995A0AAA 995900B3  @...B2.*.Z.*.Y.3
+3CBDDA50: E41C725A AA537E3D 9B98A010 3BA2011A  d.rZ*S~=.. .;"..
+3CBDDA60: 00001312 60813BD2 6666AAC9 F7ABE13A  ....`.;Rff*Iw+a:
+3CBDDA70: 00                                   .               
+
+04:38:12.271 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897E8  l?.>u..?..E@.(.h
+3CBDDA40: 40000106 D8880ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E4AC787 6A915010 3BCA9364  .3V=.JG.j.P.;J.d
+3CBDDA60: 00000000 00000000 66                 ........f       
+
+04:38:15.964 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C633E  .?.>u..?..E@.<c>
+ --More--         3CBDDA40: 4000FF06 06AE0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 687C72C3 AA70A010 3AA2051C  .3..h|rC*p .:"..
+3CBDDA60: 00001312 63FEBCC6 DBE5E17D D1F2B13B  ....c~<F[ea}Qr1;
+3CBDDA70: 00                                   .               
+
+04:38:16.459 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEC3  0G.>u..?..E@.OnC
+3CBDDA40: 40000106 421E0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AA537E3D 9B98A018 3BA241E8  d.rZ*S~=.. .;"Ah
+3CBDDA60: 00001312 AAB4A4D8 6892B185 9F969338  ....*4$Xh.1....8
+3CBDDA70: 00                                   .               
+
+04:38:20.360 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC20B  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE490ADE 79760ADE 7975C93F  @....I.^yv.^yuI?
+3CBDDA50: 00B37877 125ED90C 7D57A010 3FC7631A  .3xw.^Y.}W .?Gc.
+3CBDDA60: 00001312 B6FC9BE7 CCD788CF 708B313F  ....6|.gLW.Op.1?
+3CBDDA70: 00                                   .               
+
+04:38:22.603 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32C5  l?.>u..?..E@.O2E
+3CBDDA40: 40000106 FCBDC0A8 640BC0A8 640AA504  @...|=@(d.@(d.%.
+3CBDDA50: 00B36B14 141F6395 896CA018 3A6EAC13  .3k...c..l .:n,.
+3CBDDA60: 00001312 E6DCB711 FA18D72A 2DB86C08  ....f\7.z.W*-8l.
+3CBDDA70: 00                                   .               
+
+04:38:27.723 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F633F  .?.>u..?..E@.Oc?
+3CBDDA40: 4000FF06 069A0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 687C72C3 AA70A018 3AA2CE18  .3..h|rC*p .:"N.
+3CBDDA60: 00001312 6810D8E0 FA9A764E FBE105AD  ....h.X`z.vN{a.-
+3CBDDA70: 00                                   .               
+
+04:38:28.747 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73A5  .?.>u..?..E@.Os%
+3CBDDA40: 4000FF06 BBD8C0A8 650DC0A8 650C8EF2  @...;X@(e.@(e..r
+3CBDDA50: 00B331EE F1C3174B 23ACA018 3AC23EDA  .31nqC.K#, .:B>Z
+3CBDDA60: 00001312 3881E536 BC443A8E 6E757A19  ....8.e6<D:.nuz.
+3CBDDA70: 00                                   .               
+
+04:38:30.796 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+ --More--         3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F732A  .?.>u..?..E@.Os*
+3CBDDA40: 4000FF06 F7360ADE 7D660ADE 7D6500B3  @...w6.^}f.^}e.3
+3CBDDA50: D3C7FC09 FD87F485 246DA018 3FA1769D  SG|.}.t.$m .?!v.
+3CBDDA60: 00001312 0B1A5ACB BF133207 76FEC0DD  ......ZK?.2.v~@]
+3CBDDA70: 00                                   .               
+
+04:38:32.846 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF580  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A610ADE 79A60ADE 79A500B3  @...za.^y&.^y%.3
+3CBDDA50: 9B4A065A A614A74A 6B59A018 3A5E6931  .J.Z&.'JkY .:^i1
+3CBDDA60: 00001312 F31D407F E2E227CD 51C72FDF  ....s.@.bb'MQG/_
+3CBDDA70: 00                                   .               
+
+04:38:32.844 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1E0  .?.>u..?..E@.;a`
+3CBDDA40: 4000FF06 889C0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23CECE5A 71035018 3AA220DD  .Z?n#NNZq.P.:" ]
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:38:37.965 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC20C  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE350ADE 79760ADE 7975C93F  @....5.^yv.^yuI?
+3CBDDA50: 00B37877 125ED90C 7D57A018 3FC7298A  .3xw.^Y.}W .?G).
+3CBDDA60: 00001312 7199F138 67264481 47259609  ....q.q8g&D.G%..
+3CBDDA70: 00                                   .               
+
+04:38:42.061 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25EA  3K.>u..?..E@.O%j
+3CBDDA40: 40000106 8539D871 0E72D871 0E7100B3  @....9Xq.rXq.q.3
+3CBDDA50: C4C2C418 366F7641 4470A018 3C24A8CB  DBD.6ovADp .<$(K
+3CBDDA60: 00001312 C249D026 CBDC6233 E62A83AF  ....BIP&K\b3f*./
+3CBDDA70: 00                                   .               
+
+04:38:54.876 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73A6  .?.>u..?..E@.<s&
+3CBDDA40: 4000FF06 BBEAC0A8 650DC0A8 650C8EF2  @...;j@(e.@(e..r
+3CBDDA50: 00B331EE F1D6174B 23BFA010 3AAFAEBE  .31nqV.K#? .:/.>
+3CBDDA60: 00001312 67DD4275 BE4E8711 7B18A254  ....g]Bu>N..{."T
+3CBDDA70: 00                                   .               
+
+ --More--         04:38:57.947 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C732B  .?.>u..?..E@.<s+
+3CBDDA40: 4000FF06 F7480ADE 7D660ADE 7D6500B3  @...wH.^}f.^}e.3
+3CBDDA50: D3C7FC09 FD9AF485 2480A010 3F8E9B89  SG|.}.t.$. .?...
+3CBDDA60: 00001312 7E2113B4 1383529A 7D9C79A9  ....~!.4..R.}.y)
+3CBDDA70: 00                                   .               
+
+04:39:01.021 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1E1  .?.>u..?..E@.(aa
+3CBDDA40: 4000FF06 88AE0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23E1CE5A 71165010 3A8F24F8  .Z?n#aNZq.P.:.$x
+3CBDDA60: 00000000 00000000 13                 .........       
+
+04:39:04.640 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97E9  l?.>u..?..E@.;.i
+3CBDDA40: 40000106 D8740ADE 79720ADE 79714033  @...Xt.^yr.^yq@3
+3CBDDA50: 00B356BD 0E4AC787 6A915018 3BCA8F36  .3V=.JG.j.P.;J.6
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:39:06.245 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF581  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A730ADE 79A60ADE 79A500B3  @...zs.^y&.^y%.3
+3CBDDA50: 9B4A065A A627A74A 6B6CA010 4000CCFC  .J.Z&''Jkl .@.L|
+3CBDDA60: 00001312 0A7CF791 A9CA4B10 A51FADFC  .....|w.)JK.%.-|
+3CBDDA70: 00                                   .               
+
+04:39:08.492 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32C6  l?.>u..?..E@.<2F
+3CBDDA40: 40000106 FCCFC0A8 640BC0A8 640AA504  @...|O@(d.@(d.%.
+3CBDDA50: 00B36B14 14326395 897FA010 3A5B34A0  .3k..2c... .:[4 
+3CBDDA60: 00001312 CF1D543C E2ACBECD 067D0BE8  ....O.T<b,>M.}.h
+3CBDDA70: 00                                   .               
+
+04:39:09.212 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6340  .?.>u..?..E@.<c@
+3CBDDA40: 4000FF06 06AC0ADE 7DAA0ADE 7DA9633C  @....,.^}*.^})c<
+3CBDDA50: 00B30085 688F72C3 AA83A010 3A8FE6F2  .3..h.rC*. .:.fr
+3CBDDA60: 00001312 C51BCBD4 E0A0D796 EC8B1F55  ....E.KT` W.l..U
+3CBDDA70: 00                                   .               
+ --More--         
+04:39:09.513 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC20D  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE470ADE 79760ADE 7975C93F  @....G.^yv.^yuI?
+3CBDDA50: 00B37877 1271D90C 7D6AA010 3FB45806  .3xw.qY.}j .?4X.
+3CBDDA60: 00001312 C0D475AE CCE90426 2D1D0468  ....@Tu.Li.&-..h
+3CBDDA70: 00                                   .               
+
+04:39:10.542 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897EA  l?.>u..?..E@.(.j
+3CBDDA40: 40000106 D8860ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E5DC787 6AA45010 3BB79351  .3V=.]G.j$P.;7.Q
+3CBDDA60: 00000000 00000000 CC                 ........L       
+
+04:39:11.995 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25EB  3K.>u..?..E@.<%k
+3CBDDA40: 40000106 854BD871 0E72D871 0E7100B3  @....KXq.rXq.q.3
+3CBDDA50: C4C2C418 36827641 4483A010 3C11B5E0  DBD.6.vAD. .<.5`
+3CBDDA60: 00001312 13BBB738 8B9553F9 6FB8B30A  .....;78..Syo83.
+3CBDDA70: 00                                   .               
+
+04:39:12.064 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEC4  0G.>u..?..E@.<nD
+3CBDDA40: 40000106 42300AAA 995A0AAA 995900B3  @...B0.*.Z.*.Y.3
+3CBDDA50: E41C725A AA667E3D 9BABA010 3B8F5B26  d.rZ*f~=.+ .;.[&
+3CBDDA60: 00001312 06615F3B 5A6AD27F F76A1217  .....a_;ZjR.wj..
+3CBDDA70: 00                                   .               
+
+04:39:15.903 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEC5  0G.>u..?..E@.OnE
+3CBDDA40: 40000106 421C0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AA667E3D 9BABA018 3B8F213F  d.rZ*f~=.+ .;.!?
+3CBDDA60: 00001312 C76B4F8A 1A3C5C42 849B4728  ....GkO..<\B..G(
+3CBDDA70: 00                                   .               
+
+04:39:15.904 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32C7  l?.>u..?..E@.O2G
+3CBDDA40: 40000106 FCBBC0A8 640BC0A8 640AA504  @...|;@(d.@(d.%.
+3CBDDA50: 00B36B14 14326395 897FA018 3A5B3FA9  .3k..2c... .:[?)
+3CBDDA60: 00001312 31EC07A3 2061B3E0 6BA61FE8  ....1l.# a3`k&.h
+ --More--         3CBDDA70: 00                                   .               
+
+04:39:17.951 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6341  .?.>u..?..E@.OcA
+3CBDDA40: 4000FF06 06980ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 688F72C3 AA83A018 3A8F018D  .3..h.rC*. .:...
+3CBDDA60: 00001312 C6A61A6E 0FD7B359 02663975  ....F&.n.W3Y.f9u
+3CBDDA70: 00                                   .               
+
+04:39:21.025 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F732C  .?.>u..?..E@.Os,
+3CBDDA40: 4000FF06 F7340ADE 7D660ADE 7D6500B3  @...w4.^}f.^}e.3
+3CBDDA50: D3C7FC09 FD9AF485 2480A018 3F8E003B  SG|.}.t.$. .?..;
+3CBDDA60: 00001312 285EA7E9 6A4413A5 E0FBC62F  ....(^'ijD.%`{F/
+3CBDDA70: 00                                   .               
+
+04:39:26.145 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF582  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A5F0ADE 79A60ADE 79A500B3  @...z_.^y&.^y%.3
+3CBDDA50: 9B4A065A A627A74A 6B6CA018 4000679D  .J.Z&''Jkl .@.g.
+3CBDDA60: 00001312 49A341E4 20B71C03 9407C65B  ....I#Ad 7....F[
+3CBDDA70: 00                                   .               
+
+04:39:29.216 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73A7  .?.>u..?..E@.Os'
+3CBDDA40: 4000FF06 BBD6C0A8 650DC0A8 650C8EF2  @...;V@(e.@(e..r
+3CBDDA50: 00B331EE F1D6174B 23BFA018 3AAF775B  .31nqV.K#? .:/w[
+3CBDDA60: 00001312 33230DBA B282C53B 71962FE6  ....3#.:2.E;q./f
+3CBDDA70: 00                                   .               
+
+04:39:31.265 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1E2  .?.>u..?..E@.;ab
+3CBDDA40: 4000FF06 889A0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23E1CE5A 71165018 3A8F20CA  .Z?n#aNZq.P.:. J
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:39:32.287 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC20E  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE330ADE 79760ADE 7975C93F  @....3.^yv.^yuI?
+ --More--         3CBDDA50: 00B37877 1271D90C 7D6AA018 3FB4ADDB  .3xw.qY.}j .?4-[
+3CBDDA60: 00001312 D56A4E88 95711D19 A98EB418  ....UjN..q..).4.
+3CBDDA70: 00                                   .               
+
+04:39:41.502 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25EC  3K.>u..?..E@.O%l
+3CBDDA40: 40000106 8537D871 0E72D871 0E7100B3  @....7Xq.rXq.q.3
+3CBDDA50: C4C2C418 36827641 4483A018 3C118EC5  DBD.6.vAD. .<..E
+3CBDDA60: 00001312 CBB3C716 38011023 F3653689  ....K3G.8..#se6.
+3CBDDA70: 00                                   .               
+
+04:39:49.150 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73A8  .?.>u..?..E@.<s(
+3CBDDA40: 4000FF06 BBE8C0A8 650DC0A8 650C8EF2  @...;h@(e.@(e..r
+3CBDDA50: 00B331EE F1E9174B 23D2A010 3A9C54C3  .31nqi.K#R .:.TC
+3CBDDA60: 00001312 7B69F6C0 426BD427 BE619F31  ....{iv@BkT'>a.1
+3CBDDA70: 00                                   .               
+
+04:39:51.196 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C732D  .?.>u..?..E@.<s-
+3CBDDA40: 4000FF06 F7460ADE 7D660ADE 7D6500B3  @...wF.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDADF485 2493A010 3F7B5613  SG|.}-t.$. .?{V.
+3CBDDA60: 00001312 45AF52DF C4DBF504 F5A247EA  ....E/R_D[u.u"Gj
+3CBDDA70: 00                                   .               
+
+04:39:51.196 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1E3  .?.>u..?..E@.(ac
+3CBDDA40: 4000FF06 88AC0ADE 7D620ADE 7D6100B3  @....,.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23F4CE5A 71295010 3A7C24E5  .Z?n#tNZq)P.:|$e
+3CBDDA60: 00000000 00000000 C4                 ........D       
+
+04:39:59.692 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897EB  l?.>u..?..E@.(.k
+3CBDDA40: 40000106 D8850ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E5DC787 6AB75010 3BA49351  .3V=.]G.j7P.;$.Q
+3CBDDA60: 00000000 00000000 C4                 ........D       
+
+04:39:59.941 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97EC  l?.>u..?..E@.;.l
+3CBDDA40: 40000106 D8710ADE 79720ADE 79714033  @...Xq.^yr.^yq@3
+ --More--         3CBDDA50: 00B356BD 0E5DC787 6AB75018 3BA48F23  .3V=.]G.j7P.;$.#
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:40:00.719 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF583  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A710ADE 79A60ADE 79A500B3  @...zq.^y&.^y%.3
+3CBDDA50: 9B4A065A A63AA74A 6B7FA010 3FEDE23F  .J.Z&:'Jk. .?mb?
+3CBDDA60: 00001312 050F85C1 2A0029AC EA98CDC4  .......A*.),j.MD
+3CBDDA70: 00                                   .               
+
+04:40:02.460 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6342  .?.>u..?..E@.<cB
+3CBDDA40: 4000FF06 06AA0ADE 7DAA0ADE 7DA9633C  @....*.^}*.^})c<
+3CBDDA50: 00B30085 68A272C3 AA96A010 3A7CA7BC  .3..h"rC*. .:|'<
+3CBDDA60: 00001312 5E196AA9 4AF6150A 9AF99CBE  ....^.j)Jv...y.>
+3CBDDA70: 00                                   .               
+
+04:40:03.787 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC20F  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE450ADE 79760ADE 7975C93F  @....E.^yv.^yuI?
+3CBDDA50: 00B37877 1284D90C 7D7DA010 3FA18C51  .3xw..Y.}} .?!.Q
+3CBDDA60: 00001312 396854D8 AB6C8D8C A0DE09C6  ....9hTX+l.. ^.F
+3CBDDA70: 00                                   .               
+
+04:40:07.113 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEC6  0G.>u..?..E@.OnF
+3CBDDA40: 40000106 421B0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AA797E3D 9BABA018 3B8F60C3  d.rZ*y~=.+ .;.`C
+3CBDDA60: 00001312 AF599830 61920380 9AC55E3C  ..../Y.0a....E^<
+3CBDDA70: 00                                   .               
+
+04:40:07.684 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32C8  l?.>u..?..E@.<2H
+3CBDDA40: 40000106 FCCDC0A8 640BC0A8 640AA504  @...|M@(d.@(d.%.
+3CBDDA50: 00B36B14 14456395 8992A010 40004833  .3k..Ec... .@.H3
+3CBDDA60: 00001312 BFE7A00D 1B041473 62EB83B7  ....?g ....sbk.7
+3CBDDA70: 00                                   .               
+
+04:40:08.137 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+ --More--         3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32C9  l?.>u..?..E@.O2I
+3CBDDA40: 40000106 FCB9C0A8 640BC0A8 640AA504  @...|9@(d.@(d.%.
+3CBDDA50: 00B36B14 14456395 8992A018 4000BC8F  .3k..Ec... .@.<.
+3CBDDA60: 00001312 FEAD048F B7CCB889 D4EA145F  ....~-..7L8.Tj._
+3CBDDA70: 00                                   .               
+
+04:40:11.995 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25ED  3K.>u..?..E@.<%m
+3CBDDA40: 40000106 8549D871 0E72D871 0E7100B3  @....IXq.rXq.q.3
+3CBDDA50: C4C2C418 36957641 4496A010 3BFE3177  DBD.6.vAD. .;~1w
+3CBDDA60: 00001312 57EEB36F F989690B 84F32911  ....Wn3oy.i..s).
+3CBDDA70: 00                                   .               
+
+04:40:12.068 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEC7  0G.>u..?..E@.<nG
+3CBDDA40: 40000106 422D0AAA 995A0AAA 995900B3  @...B-.*.Z.*.Y.3
+3CBDDA50: E41C725A AA8C7E3D 9BBEA010 3B7CEB87  d.rZ*.~=.> .;|k.
+3CBDDA60: 00001312 F6408403 7E9A10BD ABB4A22A  ....v@..~..=+4"*
+3CBDDA70: 00                                   .               
+
+04:40:15.305 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F732E  .?.>u..?..E@.Os.
+3CBDDA40: 4000FF06 F7320ADE 7D660ADE 7D6500B3  @...w2.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDADF485 2493A018 3F7BB82F  SG|.}-t.$. .?{8/
+3CBDDA60: 00001312 82E0C281 64064586 9C0005CA  .....`B.d.E....J
+3CBDDA70: 00                                   .               
+
+04:40:18.376 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6343  .?.>u..?..E@.OcC
+3CBDDA40: 4000FF06 06960ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 68A272C3 AA96A018 3A7C2F42  .3..h"rC*. .:|/B
+3CBDDA60: 00001312 3E3D809C 0CE83C7A 22EC2B03  ....>=...h<z"l+.
+3CBDDA70: 00                                   .               
+
+04:40:18.376 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF584  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A5D0ADE 79A60ADE 79A500B3  @...z].^y&.^y%.3
+3CBDDA50: 9B4A065A A63AA74A 6B7FA018 3FEDD2B4  .J.Z&:'Jk. .?mR4
+3CBDDA60: 00001312 01DC267F D7662EEC DC080978  .....\&.Wf.l\..x
+3CBDDA70: 00                                   .               
+
+04:40:23.497 UTC Sep 11 2018 : IPv4 Process    : None BD11
+ --More--         
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC210  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE310ADE 79760ADE 7975C93F  @....1.^yv.^yuI?
+3CBDDA50: 00B37877 1284D90C 7D7DA018 3FA107DA  .3xw..Y.}} .?!.Z
+3CBDDA60: 00001312 665EE360 7FCC01DC 7D47EFE8  ....f^c`.L.\}Goh
+3CBDDA70: 00                                   .               
+
+04:40:29.640 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73A9  .?.>u..?..E@.Os)
+3CBDDA40: 4000FF06 BBD4C0A8 650DC0A8 650C8EF2  @...;T@(e.@(e..r
+3CBDDA50: 00B331EE F1E9174B 23D2A018 3A9C0ED1  .31nqi.K#R .:..Q
+3CBDDA60: 00001312 413866F0 2B3241B9 7A5EB617  ....A8fp+2A9z^6.
+3CBDDA70: 00                                   .               
+
+04:40:29.640 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1E4  .?.>u..?..E@.;ad
+3CBDDA40: 4000FF06 88980ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 23F4CE5A 71295018 3A7C20B7  .Z?n#tNZq)P.:| 7
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:40:30.664 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25EE  3K.>u..?..E@.O%n
+3CBDDA40: 40000106 8535D871 0E72D871 0E7100B3  @....5Xq.rXq.q.3
+3CBDDA50: C4C2C418 36957641 4496A018 3BFEAE89  DBD.6.vAD. .;~..
+3CBDDA60: 00001312 4A4E4395 F5860F49 B069AA32  ....JNC.u..I0i*2
+3CBDDA70: 00                                   .               
+
+04:40:41.371 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C732F  .?.>u..?..E@.<s/
+3CBDDA40: 4000FF06 F7440ADE 7D660ADE 7D6500B3  @...wD.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDC0F485 24A6A010 3F686D0B  SG|.}@t.$& .?hm.
+3CBDDA60: 00001312 9CFE323E 25785BF6 8197D61B  .....~2>%x[v..V.
+3CBDDA70: 00                                   .               
+
+04:40:41.373 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1E5  .?.>u..?..E@.(ae
+3CBDDA40: 4000FF06 88AA0ADE 7D620ADE 7D6100B3  @....*.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2407CE5A 713C5010 3A6924D2  .Z?n$.NZq<P.:i$R
+3CBDDA60: 00000000 00000000 25                 ........%       
+
+ --More--         04:40:46.492 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73AA  .?.>u..?..E@.<s*
+3CBDDA40: 4000FF06 BBE6C0A8 650DC0A8 650C8EF2  @...;f@(e.@(e..r
+3CBDDA50: 00B331EE F1FC174B 23E5A010 3A898A54  .31nq|.K#e .:..T
+3CBDDA60: 00001312 8135CCB8 50053C05 F2ED8CB7  .....5L8P.<.rm.7
+3CBDDA70: 00                                   .               
+
+04:40:50.892 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF585  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A6F0ADE 79A60ADE 79A500B3  @...zo.^y&.^y%.3
+3CBDDA50: 9B4A065A A64DA74A 6B92A010 3FDADE08  .J.Z&M'Jk. .?Z^.
+3CBDDA60: 00001312 F79771A5 9579BC33 9F8F1359  ....w.q%.y<3...Y
+3CBDDA70: 00                                   .               
+
+04:40:52.940 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897ED  l?.>u..?..E@.(.m
+3CBDDA40: 40000106 D8830ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E70C787 6ACA5010 3B91933E  .3V=.pG.jJP.;..>
+3CBDDA60: 00000000 00000000 95                 .........       
+
+04:40:54.217 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97EE  l?.>u..?..E@.;.n
+3CBDDA40: 40000106 D86F0ADE 79720ADE 79714033  @...Xo.^yr.^yq@3
+3CBDDA50: 00B356BD 0E70C787 6ACA5018 3B918F10  .3V=.pG.jJP.;...
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:40:57.751 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6344  .?.>u..?..E@.<cD
+3CBDDA40: 4000FF06 06A80ADE 7DAA0ADE 7DA9633C  @....(.^}*.^})c<
+3CBDDA50: 00B30085 68B572C3 AAA9A010 3A6995A4  .3..h5rC*) .:i.$
+3CBDDA60: 00001312 18378B79 4B1AFE8A 47A96A0D  .....7.yK.~.G)j.
+3CBDDA70: 00                                   .               
+
+04:41:01.132 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC211  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE430ADE 79760ADE 7975C93F  @....C.^yv.^yuI?
+3CBDDA50: 00B37877 1297D90C 7D90A010 3F8E6115  .3xw..Y.}. .?.a.
+3CBDDA60: 00001312 CE4EEDEE 0C771930 C0A4345E  ....NNmn.w.0@$4^
+3CBDDA70: 00                                   .               
+ --More--         
+04:41:01.133 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32CA  l?.>u..?..E@.<2J
+3CBDDA40: 40000106 FCCBC0A8 640BC0A8 640AA504  @...|K@(d.@(d.%.
+3CBDDA50: 00B36B14 14586395 89A5A010 3FEDEE15  .3k..Xc..% .?mn.
+3CBDDA60: 00001312 DBD840B2 C27F843C F6DBE85B  ....[X@2B..<v[h[
+3CBDDA70: 00                                   .               
+
+04:41:02.409 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32CB  l?.>u..?..E@.O2K
+3CBDDA40: 40000106 FCB7C0A8 640BC0A8 640AA504  @...|7@(d.@(d.%.
+3CBDDA50: 00B36B14 14586395 89A5A018 3FED0A30  .3k..Xc..% .?m.0
+3CBDDA60: 00001312 2DCA5131 8ED74240 68A64DD3  ....-JQ1.WB@h&MS
+3CBDDA70: 00                                   .               
+
+04:41:04.454 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEC8  0G.>u..?..E@.OnH
+3CBDDA40: 40000106 42190AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AA8C7E3D 9BBEA018 3B7C94BF  d.rZ*.~=.> .;|.?
+3CBDDA60: 00001312 62C37199 984A0C48 6B3683D8  ....bCq..J.Hk6.X
+3CBDDA70: 00                                   .               
+
+04:41:08.551 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7330  .?.>u..?..E@.Os0
+3CBDDA40: 4000FF06 F7300ADE 7D660ADE 7D6500B3  @...w0.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDC0F485 24A6A018 3F6874D7  SG|.}@t.$& .?htW
+3CBDDA60: 00001312 F6264EEC FB05A7BE DE12180C  ....v&Nl{.'>^...
+3CBDDA70: 00                                   .               
+
+04:41:12.001 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25EF  3K.>u..?..E@.<%o
+3CBDDA40: 40000106 8547D871 0E72D871 0E7100B3  @....GXq.rXq.q.3
+3CBDDA50: C4C2C418 36A87641 44A9A010 3BEBF60C  DBD.6(vAD) .;kv.
+3CBDDA60: 00001312 36071582 5D598E1F 6BACB052  ....6...]Y..k,0R
+3CBDDA70: 00                                   .               
+
+04:41:12.069 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEC9  0G.>u..?..E@.<nI
+3CBDDA40: 40000106 422B0AAA 995A0AAA 995900B3  @...B+.*.Z.*.Y.3
+3CBDDA50: E41C725A AA9F7E3D 9BD1A010 3B6919CE  d.rZ*.~=.Q .;i.N
+ --More--         3CBDDA60: 00001312 BBEEC44E 5B9087F8 49668DFD  ....;nDN[..xIf.}
+3CBDDA70: 00                                   .               
+
+04:41:13.673 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC212  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE2F0ADE 79760ADE 7975C93F  @..../.^yv.^yuI?
+3CBDDA50: 00B37877 1297D90C 7D90A018 3F8EC24C  .3xw..Y.}. .?.BL
+3CBDDA60: 00001312 6134C0DC F264CBC3 23A63182  ....a4@\rdKC#&1.
+3CBDDA70: 00                                   .               
+
+04:41:16.744 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF586  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A5B0ADE 79A60ADE 79A500B3  @...z[.^y&.^y%.3
+3CBDDA50: 9B4A065A A64DA74A 6B92A018 3FDAFB55  .J.Z&M'Jk. .?Z{U
+3CBDDA60: 00001312 149015E7 3184DD1B 4BAE238B  .......g1.].K.#.
+3CBDDA70: 00                                   .               
+
+04:41:17.768 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6345  .?.>u..?..E@.OcE
+3CBDDA40: 4000FF06 06940ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 68B572C3 AAA9A018 3A69364D  .3..h5rC*) .:i6M
+3CBDDA60: 00001312 1107CAB0 CC693C02 DA545D29  ......J0Li<.ZT])
+3CBDDA70: 00                                   .               
+
+04:41:18.792 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1E6  .?.>u..?..E@.;af
+3CBDDA40: 4000FF06 88960ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2407CE5A 713C5018 3A6920A4  .Z?n$.NZq<P.:i $
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:41:19.816 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73AB  .?.>u..?..E@.Os+
+3CBDDA40: 4000FF06 BBD2C0A8 650DC0A8 650C8EF2  @...;R@(e.@(e..r
+3CBDDA50: 00B331EE F1FC174B 23E5A018 3A89F8AB  .31nq|.K#e .:.x+
+3CBDDA60: 00001312 81E62ED6 C8D2B1F3 94B03B55  .....f.VHR1s.0;U
+3CBDDA70: 00                                   .               
+
+04:41:26.983 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25F0  3K.>u..?..E@.O%p
+ --More--         3CBDDA40: 40000106 8533D871 0E72D871 0E7100B3  @....3Xq.rXq.q.3
+3CBDDA50: C4C2C418 36A87641 44A9A018 3BEB1500  DBD.6(vAD) .;k..
+3CBDDA60: 00001312 AE552269 6EFA5308 F44E7C20  .....U"inzS.tN| 
+3CBDDA70: 00                                   .               
+
+04:41:31.548 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1E7  .?.>u..?..E@.(ag
+3CBDDA40: 4000FF06 88A80ADE 7D620ADE 7D6100B3  @....(.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 241ACE5A 714F5010 3A5624BF  .Z?n$.NZqOP.:V$?
+3CBDDA60: 00000000 00000000 6E                 ........n       
+
+04:41:37.687 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7331  .?.>u..?..E@.<s1
+3CBDDA40: 4000FF06 F7420ADE 7D660ADE 7D6500B3  @...wB.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDD3F485 24B9A010 3F557432  SG|.}St.$9 .?Ut2
+3CBDDA60: 00001312 2B4820A0 2AF24C24 E9CA1512  ....+H  *rL$iJ..
+3CBDDA70: 00                                   .               
+
+04:41:38.712 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73AC  .?.>u..?..E@.<s,
+3CBDDA40: 4000FF06 BBE4C0A8 650DC0A8 650C8EF2  @...;d@(e.@(e..r
+3CBDDA50: 00B331EE F20F174B 23F8A010 3A760ED0  .31nr..K#x .:v.P
+3CBDDA60: 00001312 C1ADFB95 E7E8B3DC A955139D  ....A-{.gh3\)U..
+3CBDDA70: 00                                   .               
+
+04:41:43.368 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97EF  l?.>u..?..E@.;.o
+3CBDDA40: 40000106 D86E0ADE 79720ADE 79714033  @...Xn.^yr.^yq@3
+3CBDDA50: 00B356BD 0E83C787 6ACA5018 3B918EFD  .3V=..G.jJP.;..}
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:41:48.249 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF587  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A6D0ADE 79A60ADE 79A500B3  @...zm.^y&.^y%.3
+3CBDDA50: 9B4A065A A660A74A 6BA5A010 3FC77E49  .J.Z&`'Jk% .?G~I
+3CBDDA60: 00001312 707013A6 E0565373 C4AD6444  ....pp.&`VSsD-dD
+3CBDDA70: 00                                   .               
+
+04:41:48.951 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+ --More--         3CBDDA30: 933F00BE 751598BF 080045C0 003C6346  .?.>u..?..E@.<cF
+3CBDDA40: 4000FF06 06A60ADE 7DAA0ADE 7DA9633C  @....&.^}*.^})c<
+3CBDDA50: 00B30085 68C872C3 AABCA010 3A5687CC  .3..hHrC*< .:V.L
+3CBDDA60: 00001312 910BBBC7 9F9FA575 13BC3852  ......;G..%u.<8R
+3CBDDA70: 00                                   .               
+
+04:41:52.344 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897F0  l?.>u..?..E@.(.p
+3CBDDA40: 40000106 D8800ADE 79720ADE 79714033  @...X..^yr.^yq@3
+3CBDDA50: 00B356BD 0E96C787 6ADD5010 3B7E9318  .3V=..G.j]P.;~..
+3CBDDA60: 00000000 00000000 9F                 .........       
+
+04:41:52.342 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC213  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE410ADE 79760ADE 7975C93F  @....A.^yv.^yuI?
+3CBDDA50: 00B37877 12AAD90C 7DA3A010 3F7BE786  .3xw.*Y.}# .?{g.
+3CBDDA60: 00001312 A8594C68 839680B0 0E116AB8  ....(YLh...0..j8
+3CBDDA70: 00                                   .               
+
+04:42:00.536 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32CC  l?.>u..?..E@.<2L
+3CBDDA40: 40000106 FCC9C0A8 640BC0A8 640AA504  @...|I@(d.@(d.%.
+3CBDDA50: 00B36B14 146B6395 89B8A010 3FDA7E17  .3k..kc..8 .?Z~.
+3CBDDA60: 00001312 2EB1B949 81C98CA4 CC98FD14  .....19I.I.$L.}.
+3CBDDA70: 00                                   .               
+
+04:42:00.779 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEECA  0G.>u..?..E@.OnJ
+3CBDDA40: 40000106 42170AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AA9F7E3D 9BD1A018 3B6986A6  d.rZ*.~=.Q .;i.&
+3CBDDA60: 00001312 366582E2 2BB5F1F1 94DB0C36  ....6e.b+5qq.[.6
+3CBDDA70: 00                                   .               
+
+04:42:00.780 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7332  .?.>u..?..E@.Os2
+3CBDDA40: 4000FF06 F72E0ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FDD3F485 24B9A018 3F554504  SG|.}St.$9 .?UE.
+3CBDDA60: 00001312 52280CE3 604FA276 1A79989F  ....R(.c`O"v.y..
+3CBDDA70: 00                                   .               
+
+04:42:02.829 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+ --More--         3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32CD  l?.>u..?..E@.O2M
+3CBDDA40: 40000106 FCB5C0A8 640BC0A8 640AA504  @...|5@(d.@(d.%.
+3CBDDA50: 00B36B14 146B6395 89B8A018 3FDAC1E5  .3k..kc..8 .?ZAe
+3CBDDA60: 00001312 553DFE90 F05FA3C0 54390F8A  ....U=~.p_#@T9..
+3CBDDA70: 00                                   .               
+
+04:42:04.875 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC214  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE2D0ADE 79760ADE 7975C93F  @....-.^yv.^yuI?
+3CBDDA50: 00B37877 12AAD90C 7DA3A018 3F7B11D6  .3xw.*Y.}# .?{.V
+3CBDDA60: 00001312 2810B662 E5342415 81E76FAB  ....(.6be4$..go+
+3CBDDA70: 00                                   .               
+
+04:42:09.996 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1E8  .?.>u..?..E@.;ah
+3CBDDA40: 4000FF06 88940ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 241ACE5A 714F5018 3A562091  .Z?n$.NZqOP.:V .
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:42:11.021 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF588  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A590ADE 79A60ADE 79A500B3  @...zY.^y&.^y%.3
+3CBDDA50: 9B4A065A A660A74A 6BA5A018 3FC71010  .J.Z&`'Jk% .?G..
+3CBDDA60: 00001312 AF849E30 018EF969 1DABAD65  ..../..0..yi.+-e
+3CBDDA70: 00                                   .               
+
+04:42:12.004 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25F1  3K.>u..?..E@.<%q
+3CBDDA40: 40000106 8545D871 0E72D871 0E7100B3  @....EXq.rXq.q.3
+3CBDDA50: C4C2C418 36BB7641 44BCA010 3BD86DF0  DBD.6;vAD< .;Xmp
+3CBDDA60: 00001312 EC1D8ED7 6BC2D1D9 69EBC495  ....l..WkBQYikD.
+3CBDDA70: 00                                   .               
+
+04:42:12.071 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEECB  0G.>u..?..E@.<nK
+3CBDDA40: 40000106 42290AAA 995A0AAA 995900B3  @...B).*.Z.*.Y.3
+3CBDDA50: E41C725A AAB27E3D 9BE4A010 3B562CBF  d.rZ*2~=.d .;V,?
+3CBDDA60: 00001312 42F0A3FE C1F25997 FFD74562  ....Bp#~ArY..WEb
+3CBDDA70: 00                                   .               
+
+ --More--         04:42:16.140 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6347  .?.>u..?..E@.OcG
+3CBDDA40: 4000FF06 06920ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 68C872C3 AABCA018 3A5601F9  .3..hHrC*< .:V.y
+3CBDDA60: 00001312 E7088F39 CA914D7F 9FE3AAED  ....g..9J.M..c*m
+3CBDDA70: 00                                   .               
+
+04:42:17.164 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73AD  .?.>u..?..E@.Os-
+3CBDDA40: 4000FF06 BBD0C0A8 650DC0A8 650C8EF2  @...;P@(e.@(e..r
+3CBDDA50: 00B331EE F20F174B 23F8A018 3A76CDA6  .31nr..K#x .:vM&
+3CBDDA60: 00001312 2B67CEE0 1BD42DCC 25021712  ....+gN`.T-L%...
+3CBDDA70: 00                                   .               
+
+04:42:24.333 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25F2  3K.>u..?..E@.O%r
+3CBDDA40: 40000106 8531D871 0E72D871 0E7100B3  @....1Xq.rXq.q.3
+3CBDDA50: C4C2C418 36BB7641 44BCA018 3BD84F12  DBD.6;vAD< .;XO.
+3CBDDA60: 00001312 0C68BA10 2D493CE2 BCFE9150  .....h:.-I<b<~.P
+3CBDDA70: 00                                   .               
+
+04:42:25.615 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1E9  .?.>u..?..E@.(ai
+3CBDDA40: 4000FF06 88A60ADE 7D620ADE 7D6100B3  @....&.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 242DCE5A 71625010 40001EEF  .Z?n$-NZqbP.@..o
+3CBDDA60: 00000000 00000000 2D                 ........-       
+
+04:42:34.008 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7333  .?.>u..?..E@.<s3
+3CBDDA40: 4000FF06 F7400ADE 7D660ADE 7D6500B3  @...w@.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDE6F485 24CCA010 3F42A251  SG|.}ft.$L .?B"Q
+3CBDDA60: 00001312 6A2A7D39 092153E1 6D0EA80D  ....j*}9.!Sam.(.
+3CBDDA70: 00                                   .               
+
+04:42:34.573 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97F1  l?.>u..?..E@.;.q
+3CBDDA40: 40000106 D86C0ADE 79720ADE 79714033  @...Xl.^yr.^yq@3
+3CBDDA50: 00B356BD 0E96C787 6ADD5018 3B7E8EEA  .3V=..G.j]P.;~.j
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+ --More--         
+04:42:36.057 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73AE  .?.>u..?..E@.<s.
+3CBDDA40: 4000FF06 BBE2C0A8 650DC0A8 650C8EF2  @...;b@(e.@(e..r
+3CBDDA50: 00B331EE F222174B 240BA010 3A6353EC  .31nr".K$. .:cSl
+3CBDDA60: 00001312 C4697C13 F20A8257 2545A52B  ....Di|.r..W%E%+
+3CBDDA70: 00                                   .               
+
+04:42:39.952 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6348  .?.>u..?..E@.<cH
+3CBDDA40: 4000FF06 06A40ADE 7DAA0ADE 7DA9633C  @....$.^}*.^})c<
+3CBDDA50: 00B30085 68DB72C3 AACFA010 40003079  .3..h[rC*O .@.0y
+3CBDDA60: 00001312 69E35A45 8CF560FA 5A6796F1  ....icZE.u`zZg.q
+3CBDDA70: 00                                   .               
+
+04:42:41.496 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897F2  l?.>u..?..E@.(.r
+3CBDDA40: 40000106 D87E0ADE 79720ADE 79714033  @...X~.^yr.^yq@3
+3CBDDA50: 00B356BD 0EA9C787 6AF05010 3B6B9305  .3V=.)G.jpP.;k..
+3CBDDA60: 00000000 00000000 8C                 .........       
+
+04:42:44.568 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC215  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE3F0ADE 79760ADE 7975C93F  @....?.^yv.^yuI?
+3CBDDA50: 00B37877 12BDD90C 7DB6A010 3F681A4A  .3xw.=Y.}6 .?h.J
+3CBDDA60: 00001312 A53216E8 628D1F58 DD79F49A  ....%2.hb..X]yt.
+3CBDDA70: 00                                   .               
+
+04:42:46.616 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF589  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A6B0ADE 79A60ADE 79A500B3  @...zk.^y&.^y%.3
+3CBDDA50: 9B4A065A A673A74A 6BB8A010 3FB4FB5F  .J.Z&s'Jk8 .?4{_
+3CBDDA60: 00001312 521EA176 7B7825C5 DDDC5EC2  ....R.!v{x%E]\^B
+3CBDDA70: 00                                   .               
+
+04:42:51.983 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32CE  l?.>u..?..E@.O2N
+3CBDDA40: 40000106 FCB4C0A8 640BC0A8 640AA504  @...|4@(d.@(d.%.
+3CBDDA50: 00B36B14 147E6395 89B8A018 3FDAEF38  .3k..~c..8 .?Zo8
+3CBDDA60: 00001312 B5F1CF44 EE8F8281 DEA089D3  ....5qODn...^ .S
+ --More--         3CBDDA70: 00                                   .               
+
+04:42:54.033 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC216  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE2B0ADE 79760ADE 7975C93F  @....+.^yv.^yuI?
+3CBDDA50: 00B37877 12BDD90C 7DB6A018 3F688898  .3xw.=Y.}6 .?h..
+3CBDDA60: 00001312 5D92588E 8E413D25 239A037C  ....].X..A=%#..|
+3CBDDA70: 00                                   .               
+
+04:42:55.057 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEECC  0G.>u..?..E@.OnL
+3CBDDA40: 40000106 42150AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AAB27E3D 9BE4A018 3B563990  d.rZ*2~=.d .;V9.
+3CBDDA60: 00001312 439C5D47 AEDB8832 E189ACB6  ....C.]G.[.2a.,6
+3CBDDA70: 00                                   .               
+
+04:42:55.055 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7334  .?.>u..?..E@.Os4
+3CBDDA40: 4000FF06 F72C0ADE 7D660ADE 7D6500B3  @...w,.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDE6F485 24CCA018 3F423A36  SG|.}ft.$L .?B:6
+3CBDDA60: 00001312 3993B9F7 74D74260 549884ED  ....9.9wtWB`T..m
+3CBDDA70: 00                                   .               
+
+04:42:56.861 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32CF  l?.>u..?..E@.<2O
+3CBDDA40: 40000106 FCC6C0A8 640BC0A8 640AA504  @...|F@(d.@(d.%.
+3CBDDA50: 00B36B14 14916395 89CBA010 3FC7F9FA  .3k...c..K .?Gyz
+3CBDDA60: 00001312 B81BCDF8 628CC7FE 989B892A  ....8.Mxb.G~...*
+3CBDDA70: 00                                   .               
+
+04:42:59.153 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1EA  .?.>u..?..E@.;aj
+3CBDDA40: 4000FF06 88920ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 242DCE5A 71625018 40001AC1  .Z?n$-NZqbP.@..A
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:43:00.177 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF58A  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A570ADE 79A60ADE 79A500B3  @...zW.^y&.^y%.3
+ --More--         3CBDDA50: 9B4A065A A673A74A 6BB8A018 3FB45177  .J.Z&s'Jk8 .?4Qw
+3CBDDA60: 00001312 1659A566 841A7B6E ECFC7FA0  .....Y%f..{nl|. 
+3CBDDA70: 00                                   .               
+
+04:43:09.390 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6349  .?.>u..?..E@.OcI
+3CBDDA40: 4000FF06 06900ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 68DB72C3 AACFA018 4000530D  .3..h[rC*O .@.S.
+3CBDDA60: 00001312 D2243006 A7F779E7 87783453  ....R$0.'wyg.x4S
+3CBDDA70: 00                                   .               
+
+04:43:12.008 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25F3  3K.>u..?..E@.<%s
+3CBDDA40: 40000106 8543D871 0E72D871 0E7100B3  @....CXq.rXq.q.3
+3CBDDA50: C4C2C418 36CE7641 44CFA010 3BC5A81A  DBD.6NvADO .;E(.
+3CBDDA60: 00001312 664700DD 6825A9F9 3F8FF37A  ....fG.]h%)y?.sz
+3CBDDA70: 00                                   .               
+
+04:43:12.073 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEECD  0G.>u..?..E@.<nM
+3CBDDA40: 40000106 42270AAA 995A0AAA 995900B3  @...B'.*.Z.*.Y.3
+3CBDDA50: E41C725A AAC57E3D 9BF7A010 3B43576B  d.rZ*E~=.w .;CWk
+3CBDDA60: 00001312 C02583C2 B79BFA4E C983DD33  ....@%.B7.zNI.]3
+3CBDDA70: 00                                   .               
+
+04:43:15.536 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73AF  .?.>u..?..E@.Os/
+3CBDDA40: 4000FF06 BBCEC0A8 650DC0A8 650C8EF2  @...;N@(e.@(e..r
+3CBDDA50: 00B331EE F222174B 240BA018 3A6355EA  .31nr".K$. .:cUj
+3CBDDA60: 00001312 990BD1F9 E393CD7A 83A52C4D  ......Qyc.Mz.%,M
+3CBDDA70: 00                                   .               
+
+04:43:22.137 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1EB  .?.>u..?..E@.(ak
+3CBDDA40: 4000FF06 88A40ADE 7D620ADE 7D6100B3  @....$.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2440CE5A 71755010 3FED1EDC  .Z?n$@NZquP.?m.\
+3CBDDA60: 00000000 00000000 E3                 ........c       
+
+04:43:22.702 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25F4  3K.>u..?..E@.O%t
+ --More--         3CBDDA40: 40000106 852FD871 0E72D871 0E7100B3  @..../Xq.rXq.q.3
+3CBDDA50: C4C2C418 36CE7641 44CFA018 3BC5B21E  DBD.6NvADO .;E2.
+3CBDDA60: 00001312 B6BFA869 D4E8B0F9 83E7882B  ....6?(iTh0y.g.+
+3CBDDA70: 00                                   .               
+
+04:43:26.235 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7335  .?.>u..?..E@.<s5
+3CBDDA40: 4000FF06 F73E0ADE 7D660ADE 7D6500B3  @...w>.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDF9F485 24DFA010 3F2F0E03  SG|.}yt.$_ .?/..
+3CBDDA60: 00001312 D1EE2A3D 9DE50310 21FBEE59  ....Qn*=.e..!{nY
+3CBDDA70: 00                                   .               
+
+04:43:29.873 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97F3  l?.>u..?..E@.;.s
+3CBDDA40: 40000106 D86A0ADE 79720ADE 79714033  @...Xj.^yr.^yq@3
+3CBDDA50: 00B356BD 0EA9C787 6AF05018 3B6B8ED7  .3V=.)G.jpP.;k.W
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:43:32.377 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73B0  .?.>u..?..E@.<s0
+3CBDDA40: 4000FF06 BBE0C0A8 650DC0A8 650C8EF2  @...;`@(e.@(e..r
+3CBDDA50: 00B331EE F235174B 241EA010 3A50124E  .31nr5.K$. .:P.N
+3CBDDA60: 00001312 FE196F05 71128393 B6DC7E54  ....~.o.q...6\~T
+3CBDDA70: 00                                   .               
+
+04:43:39.546 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C634A  .?.>u..?..E@.<cJ
+3CBDDA40: 4000FF06 06A20ADE 7DAA0ADE 7DA9633C  @....".^}*.^})c<
+3CBDDA50: 00B30085 68EE72C3 AAE2A010 3FED3658  .3..hnrC*b .?m6X
+3CBDDA60: 00001312 9ADFE022 289188AA 7F23245D  ....._`"(..*.#$]
+3CBDDA70: 00                                   .               
+
+04:43:40.892 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897F4  l?.>u..?..E@.(.t
+3CBDDA40: 40000106 D87C0ADE 79720ADE 79714033  @...X|.^yr.^yq@3
+3CBDDA50: 00B356BD 0EBCC787 6B035010 3B5892F2  .3V=.<G.k.P.;X.r
+3CBDDA60: 00000000 00000000 28                 ........(       
+
+04:43:42.936 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+ --More--         3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC217  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE3D0ADE 79760ADE 7975C93F  @....=.^yv.^yuI?
+3CBDDA50: 00B37877 12D0D90C 7DC9A010 3F55D7C1  .3xw.PY.}I .?UWA
+3CBDDA60: 00001312 593C9DC9 8445E243 CFB06521  ....Y<.I.EbCO0e!
+3CBDDA70: 00                                   .               
+
+04:43:44.208 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC218  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE290ADE 79760ADE 7975C93F  @....).^yv.^yuI?
+3CBDDA50: 00B37877 12D0D90C 7DC9A018 3F550B6E  .3xw.PY.}I .?U.n
+3CBDDA60: 00001312 0C996E55 6E324DF8 1E894BA8  ......nUn2Mx..K(
+3CBDDA70: 00                                   .               
+
+04:43:44.987 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF58B  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A690ADE 79A60ADE 79A500B3  @...zi.^y&.^y%.3
+3CBDDA50: 9B4A065A A686A74A 6BCBA010 3FA106D6  .J.Z&.'JkK .?!.V
+3CBDDA60: 00001312 C944E580 4553853E 1AC78993  ....IDe.ES.>.G..
+3CBDDA70: 00                                   .               
+
+04:43:47.280 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32D0  l?.>u..?..E@.O2P
+3CBDDA40: 40000106 FCB2C0A8 640BC0A8 640AA504  @...|2@(d.@(d.%.
+3CBDDA50: 00B36B14 14916395 89CBA018 3FC77FF4  .3k...c..K .?G.t
+3CBDDA60: 00001312 B2D35E41 3C48F1D4 250FFBA1  ....2S^A<HqT%.{!
+3CBDDA70: 00                                   .               
+
+04:43:48.303 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEECE  0G.>u..?..E@.OnN
+3CBDDA40: 40000106 42130AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AAC57E3D 9BF7A018 3B4313C4  d.rZ*E~=.w .;C.D
+3CBDDA60: 00001312 75BC80AB 4CBEF7DF 0DC77AB4  ....u<.+L>w_.Gz4
+3CBDDA70: 00                                   .               
+
+04:43:52.401 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7336  .?.>u..?..E@.Os6
+3CBDDA40: 4000FF06 F72A0ADE 7D660ADE 7D6500B3  @...w*.^}f.^}e.3
+3CBDDA50: D3C7FC09 FDF9F485 24DFA018 3F2FF751  SG|.}yt.$_ .?/wQ
+3CBDDA60: 00001312 F108C700 8F4DA05C 5911D615  ....q.G..M \Y.V.
+3CBDDA70: 00                                   .               
+
+04:43:53.424 UTC Sep 11 2018 : IPv4 Process    : None BD800
+ --More--         
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1EC  .?.>u..?..E@.;al
+3CBDDA40: 4000FF06 88900ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2440CE5A 71755018 3FED1AAE  .Z?n$@NZquP.?m..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:43:54.448 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF58C  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A550ADE 79A60ADE 79A500B3  @...zU.^y&.^y%.3
+3CBDDA50: 9B4A065A A686A74A 6BCBA018 3FA19D3B  .J.Z&.'JkK .?!.;
+3CBDDA60: 00001312 CAB9A91C C560D17A 7620CAEF  ....J9).E`Qzv Jo
+3CBDDA70: 00                                   .               
+
+04:43:55.231 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32D1  l?.>u..?..E@.<2Q
+3CBDDA40: 40000106 FCC4C0A8 640BC0A8 640AA504  @...|D@(d.@(d.%.
+3CBDDA50: 00B36B14 14A46395 89DEA010 3FB46EC4  .3k..$c..^ .?4nD
+3CBDDA60: 00001312 2BA92E85 91FED315 7D0203AC  ....+)...~S.}..,
+3CBDDA70: 00                                   .               
+
+04:44:06.735 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F634B  .?.>u..?..E@.OcK
+3CBDDA40: 4000FF06 068E0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 68EE72C3 AAE2A018 3FED365C  .3..hnrC*b .?m6\
+3CBDDA60: 00001312 D9E984B8 29BBF880 59AC12A9  ....Yi.8);x.Y,.)
+3CBDDA70: 00                                   .               
+
+04:44:07.758 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73B1  .?.>u..?..E@.Os1
+3CBDDA40: 4000FF06 BBCCC0A8 650DC0A8 650C8EF2  @...;L@(e.@(e..r
+3CBDDA50: 00B331EE F235174B 241EA018 3A50CA83  .31nr5.K$. .:PJ.
+3CBDDA60: 00001312 637C4800 C7873376 F7B7C327  ....c|H.G.3vw7C'
+3CBDDA70: 00                                   .               
+
+04:44:12.012 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25F5  3K.>u..?..E@.<%u
+3CBDDA40: 40000106 8541D871 0E72D871 0E7100B3  @....AXq.rXq.q.3
+3CBDDA50: C4C2C418 36E17641 44E2A010 3BB260F7  DBD.6avADb .;2`w
+3CBDDA60: 00001312 C1D8A9FA B1267478 CF310133  ....AX)z1&txO1.3
+3CBDDA70: 00                                   .               
+ --More--         
+04:44:12.076 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEECF  0G.>u..?..E@.<nO
+3CBDDA40: 40000106 42250AAA 995A0AAA 995900B3  @...B%.*.Z.*.Y.3
+3CBDDA50: E41C725A AAD87E3D 9C0AA010 3B30097C  d.rZ*X~=.. .;0.|
+3CBDDA60: 00001312 96BFEB06 EE2EBD1C 4689D0A6  .....?k.n.=.F.P&
+3CBDDA70: 00                                   .               
+
+04:44:15.952 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25F6  3K.>u..?..E@.O%v
+3CBDDA40: 40000106 852DD871 0E72D871 0E7100B3  @....-Xq.rXq.q.3
+3CBDDA50: C4C2C418 36E17641 44E2A018 3BB27C5D  DBD.6avADb .;2|]
+3CBDDA60: 00001312 F9F78393 D6E8C7AC 7CB19595  ....yw..VhG,|1..
+3CBDDA70: 00                                   .               
+
+04:44:18.456 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7337  .?.>u..?..E@.<s7
+3CBDDA40: 4000FF06 F73C0ADE 7D660ADE 7D6500B3  @...w<.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE0CF485 24F2A010 3F1C687D  SG|.~.t.$r .?.h}
+3CBDDA60: 00001312 35F438FD 3ACBF1C1 09FA1883  ....5t8}:KqA.z..
+3CBDDA70: 00                                   .               
+
+04:44:21.529 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1ED  .?.>u..?..E@.(am
+3CBDDA40: 4000FF06 88A20ADE 7D620ADE 7D6100B3  @....".^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2453CE5A 71885010 3FDA1EC9  .Z?n$SNZq.P.?Z.I
+3CBDDA60: 00000000 00000000 3A                 ........:       
+
+04:44:23.381 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73B2  .?.>u..?..E@.<s2
+3CBDDA40: 4000FF06 BBDEC0A8 650DC0A8 650C8EF2  @...;^@(e.@(e..r
+3CBDDA50: 00B331EE F248174B 2431A010 40008A76  .31nrH.K$1 .@..v
+3CBDDA60: 00001312 1732EA6B FE5ED5EC 6EB17402  .....2jk~^Uln1t.
+3CBDDA70: 00                                   .               
+
+04:44:29.264 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97F5  l?.>u..?..E@.;.u
+3CBDDA40: 40000106 D8680ADE 79720ADE 79714033  @...Xh.^yr.^yq@3
+3CBDDA50: 00B356BD 0EBCC787 6B035018 3B588EC4  .3V=.<G.k.P.;X.D
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+ --More--         3CBDDA70: 00                                   .               
+
+04:44:31.076 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897F6  l?.>u..?..E@.(.v
+3CBDDA40: 40000106 D87A0ADE 79720ADE 79714033  @...Xz.^yr.^yq@3
+3CBDDA50: 00B356BD 0ECFC787 6B165010 3B4592DF  .3V=.OG.k.P.;E._
+3CBDDA60: 00000000 00000000 FF                 .........       
+
+04:44:38.239 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF58D  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A670ADE 79A60ADE 79A500B3  @...zg.^y&.^y%.3
+3CBDDA50: 9B4A065A A699A74A 6BDEA010 3F8E9D9F  .J.Z&.'Jk^ .?...
+3CBDDA60: 00001312 4817BDF0 81AB9B01 27285D7A  ....H.=p.+..'(]z
+3CBDDA70: 00                                   .               
+
+04:44:38.940 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C634C  .?.>u..?..E@.<cL
+3CBDDA40: 4000FF06 06A00ADE 7DAA0ADE 7DA9633C  @.... .^}*.^})c<
+3CBDDA50: 00B30085 690172C3 AAF5A010 3FDA85B9  .3..i.rC*u .?Z.9
+3CBDDA60: 00001312 78CD9426 E0CACF77 378024C6  ....xM.&`JOw7.$F
+3CBDDA70: 00                                   .               
+
+04:44:39.504 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC219  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE280ADE 79760ADE 7975C93F  @....(.^yv.^yuI?
+3CBDDA50: 00B37877 12E3D90C 7DC9A018 3F554773  .3xw.cY.}I .?UGs
+3CBDDA60: 00001312 B96B1279 FBA4F0FE 4DF9F61A  ....9k.y{$p~Myv.
+3CBDDA70: 00                                   .               
+
+04:44:41.312 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC21A  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE3A0ADE 79760ADE 7975C93F  @....:.^yv.^yuI?
+3CBDDA50: 00B37877 12F6D90C 7DDCA010 3F4203D4  .3xw.vY.}\ .?B.T
+3CBDDA60: 00001312 E706D8CF 8969F0EC 7524A99F  ....g.XO.iplu$).
+3CBDDA70: 00                                   .               
+
+04:44:42.574 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEED0  0G.>u..?..E@.OnP
+3CBDDA40: 40000106 42110AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AAD87E3D 9C0AA018 3B30635D  d.rZ*X~=.. .;0c]
+ --More--         3CBDDA60: 00001312 9382CA24 2BF827E6 73A36912  ......J$+x'fs#i.
+3CBDDA70: 00                                   .               
+
+04:44:44.384 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32D2  l?.>u..?..E@.<2R
+3CBDDA40: 40000106 FCC3C0A8 640BC0A8 640AA504  @...|C@(d.@(d.%.
+3CBDDA50: 00B36B14 14A46395 89F1A010 3FA140D3  .3k..$c..q .?!@S
+3CBDDA60: 00001312 07ADAF1C 8C31953E E7F76E7C  .....-/..1.>gwn|
+3CBDDA70: 00                                   .               
+
+04:44:46.673 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32D3  l?.>u..?..E@.O2S
+3CBDDA40: 40000106 FCAFC0A8 640BC0A8 640AA504  @...|/@(d.@(d.%.
+3CBDDA50: 00B36B14 14A46395 89F1A018 3FA166B4  .3k..$c..q .?!f4
+3CBDDA60: 00001312 09AE59A4 FBE8D2D5 69BCA44F  ......Y${hRUi<$O
+3CBDDA70: 00                                   .               
+
+04:44:49.745 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7338  .?.>u..?..E@.Os8
+3CBDDA40: 4000FF06 F7280ADE 7D660ADE 7D6500B3  @...w(.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE0CF485 24F2A018 3F1CD9E0  SG|.~.t.$r .?.Y`
+3CBDDA60: 00001312 9AED4B86 6FBA4454 F65A4EEC  .....mK.o:DTvZNl
+3CBDDA70: 00                                   .               
+
+04:44:51.791 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1EE  .?.>u..?..E@.;an
+3CBDDA40: 4000FF06 888E0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2453CE5A 71885018 3FDA1A9B  .Z?n$SNZq.P.?Z..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:44:53.839 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF58E  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A530ADE 79A60ADE 79A500B3  @...zS.^y&.^y%.3
+3CBDDA50: 9B4A065A A699A74A 6BDEA018 3F8E81E4  .J.Z&.'Jk^ .?..d
+3CBDDA60: 00001312 1B661598 C76A5C06 A2B82BF1  .....f..Gj\."8+q
+3CBDDA70: 00                                   .               
+
+04:44:56.911 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73B3  .?.>u..?..E@.Os3
+ --More--         3CBDDA40: 4000FF06 BBCAC0A8 650DC0A8 650C8EF2  @...;J@(e.@(e..r
+3CBDDA50: 00B331EE F248174B 2431A018 400057DE  .31nrH.K$1 .@.W^
+3CBDDA60: 00001312 656EA262 62E10F92 653318D5  ....en"bba..e3.U
+3CBDDA70: 00                                   .               
+
+04:45:03.055 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F634D  .?.>u..?..E@.OcM
+3CBDDA40: 4000FF06 068C0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 690172C3 AAF5A018 3FDA385A  .3..i.rC*u .?Z8Z
+3CBDDA60: 00001312 C4F5DEF5 372EAFFC 074E1B6D  ....Du^u7./|.N.m
+3CBDDA70: 00                                   .               
+
+04:45:09.201 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25F7  3K.>u..?..E@.O%w
+3CBDDA40: 40000106 852CD871 0E72D871 0E7100B3  @....,Xq.rXq.q.3
+3CBDDA50: C4C2C418 36F47641 44E2A018 3BB22A7E  DBD.6tvADb .;2*~
+3CBDDA60: 00001312 B0F8C73B 6BD7EBF5 A2249A7A  ....0xG;kWku"$.z
+3CBDDA70: 00                                   .               
+
+04:45:10.683 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7339  .?.>u..?..E@.<s9
+3CBDDA40: 4000FF06 F73A0ADE 7D660ADE 7D6500B3  @...w:.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE1FF485 2505A010 3F09673A  SG|.~.t.%. .?.g:
+3CBDDA60: 00001312 2C70854F F07CD37F 8292458D  ....,p.Op|S...E.
+3CBDDA70: 00                                   .               
+
+04:45:12.015 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25F8  3K.>u..?..E@.<%x
+3CBDDA40: 40000106 853ED871 0E72D871 0E7100B3  @....>Xq.rXq.q.3
+3CBDDA50: C4C2C418 37077641 44F5A010 3B9F898F  DBD.7.vADu .;...
+3CBDDA60: 00001312 450CC9E3 E7E28570 C3A21436  ....E.Icgb.pC".6
+3CBDDA70: 00                                   .               
+
+04:45:12.080 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEED1  0G.>u..?..E@.<nQ
+3CBDDA40: 40000106 42230AAA 995A0AAA 995900B3  @...B#.*.Z.*.Y.3
+3CBDDA50: E41C725A AAEB7E3D 9C1DA010 3B1DE571  d.rZ*k~=.. .;.eq
+3CBDDA60: 00001312 FBE04EFE 32C531BB 5F5E092C  ....{`N~2E1;_^.,
+3CBDDA70: 00                                   .               
+
+04:45:12.733 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+ --More--         3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73B4  .?.>u..?..E@.<s4
+3CBDDA40: 4000FF06 BBDCC0A8 650DC0A8 650C8EF2  @...;\@(e.@(e..r
+3CBDDA50: 00B331EE F25B174B 2444A010 3FEDE50A  .31nr[.K$D .?me.
+3CBDDA60: 00001312 40CA00B7 195B38CA 58ED28DB  ....@J.7.[8JXm([
+3CBDDA70: 00                                   .               
+
+04:45:17.848 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1EF  .?.>u..?..E@.(ao
+3CBDDA40: 4000FF06 88A00ADE 7D620ADE 7D6100B3  @.... .^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2466CE5A 719B5010 3FC71EB6  .Z?n$fNZq.P.?G.6
+3CBDDA60: 00000000 00000000 19                 .........       
+
+04:45:18.418 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97F7  l?.>u..?..E@.;.w
+3CBDDA40: 40000106 D8660ADE 79720ADE 79714033  @...Xf.^yr.^yq@3
+3CBDDA50: 00B356BD 0ECFC787 6B165018 3B458EB1  .3V=.OG.k.P.;E.1
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:45:26.372 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897F8  l?.>u..?..E@.(.x
+3CBDDA40: 40000106 D8780ADE 79720ADE 79714033  @...Xx.^yr.^yq@3
+3CBDDA50: 00B356BD 0EE2C787 6B295010 3B3292CC  .3V=.bG.k)P.;2.L
+3CBDDA60: 00000000 00000000 FF                 .........       
+
+04:45:30.140 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C634E  .?.>u..?..E@.<cN
+3CBDDA40: 4000FF06 069E0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 691472C3 AB08A010 3FC7A8CD  .3..i.rC+. .?G(M
+3CBDDA60: 00001312 048AA4D9 B1C4C4B0 6CA51AB6  ......$Y1DD0l%.6
+3CBDDA70: 00                                   .               
+
+04:45:33.540 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32D4  l?.>u..?..E@.<2T
+3CBDDA40: 40000106 FCC1C0A8 640BC0A8 640AA504  @...|A@(d.@(d.%.
+3CBDDA50: 00B36B14 14B76395 8A04A010 3F8EBDFF  .3k..7c... .?.=.
+3CBDDA60: 00001312 B9F41293 83388C17 E39FB5E3  ....9t...8..c.5c
+3CBDDA70: 00                                   .               
+
+04:45:35.587 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+ --More--         3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC21B  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE390ADE 79760ADE 7975C93F  @....9.^yv.^yuI?
+3CBDDA50: 00B37877 12F6D90C 7DEFA010 3F2FA0A9  .3xw.vY.}o .?/ )
+3CBDDA60: 00001312 0B2559FC 4261D3CB 28F5D8A6  .....%Y|BaSK(uX&
+3CBDDA70: 00                                   .               
+
+04:45:37.635 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF58F  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A650ADE 79A60ADE 79A500B3  @...ze.^y&.^y%.3
+3CBDDA50: 9B4A065A A6ACA74A 6BF1A010 3F7B5C71  .J.Z&,'Jkq .?{\q
+3CBDDA60: 00001312 C3BA58A1 F935A948 1380FCB4  ....C:X!y5)H..|4
+3CBDDA70: 00                                   .               
+
+04:45:39.920 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC21C  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE250ADE 79760ADE 7975C93F  @....%.^yv.^yuI?
+3CBDDA50: 00B37877 12F6D90C 7DEFA018 3F2F5171  .3xw.vY.}o .?/Qq
+3CBDDA60: 00001312 698EF6E9 1CA8AF96 9EE47E14  ....i.vi.(/..d~.
+3CBDDA70: 00                                   .               
+
+04:45:40.945 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEED2  0G.>u..?..E@.OnR
+3CBDDA40: 40000106 420F0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AAEB7E3D 9C1DA018 3B1DF218  d.rZ*k~=.. .;.r.
+3CBDDA60: 00001312 487B4C9C 20FA835E C7153B40  ....H{L. z.^G.;@
+3CBDDA70: 00                                   .               
+
+04:45:42.992 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32D5  l?.>u..?..E@.O2U
+3CBDDA40: 40000106 FCADC0A8 640BC0A8 640AA504  @...|-@(d.@(d.%.
+3CBDDA50: 00B36B14 14B76395 8A04A018 3F8ECB73  .3k..7c... .?.Ks
+3CBDDA60: 00001312 40CC8C0C 021866F4 9187CB09  ....@L....ft..K.
+3CBDDA70: 00                                   .               
+
+04:45:44.016 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF590  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A510ADE 79A60ADE 79A500B3  @...zQ.^y&.^y%.3
+3CBDDA50: 9B4A065A A6ACA74A 6BF1A018 3F7B212C  .J.Z&,'Jkq .?{!,
+3CBDDA60: 00001312 F2A4167D AC965229 89F165F0  ....r$.},.R).qep
+3CBDDA70: 00                                   .               
+
+ --More--         04:45:48.112 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73B5  .?.>u..?..E@.Os5
+3CBDDA40: 4000FF06 BBC8C0A8 650DC0A8 650C8EF2  @...;H@(e.@(e..r
+3CBDDA50: 00B331EE F25B174B 2444A018 3FEDD087  .31nr[.K$D .?mP.
+3CBDDA60: 00001312 9F8D3EA8 237F837C 52745EEC  ......>(#..|Rt^l
+3CBDDA70: 00                                   .               
+
+04:45:49.135 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F733A  .?.>u..?..E@.Os:
+3CBDDA40: 4000FF06 F7260ADE 7D660ADE 7D6500B3  @...w&.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE1FF485 2505A018 3F0933A2  SG|.~.t.%. .?.3"
+3CBDDA60: 00001312 ECD59915 7E91580A 8F13D39C  ....lU..~.X...S.
+3CBDDA70: 00                                   .               
+
+04:45:49.137 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1F0  .?.>u..?..E@.;ap
+3CBDDA40: 4000FF06 888C0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2466CE5A 719B5018 3FC71A88  .Z?n$fNZq.P.?G..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:45:53.232 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F634F  .?.>u..?..E@.OcO
+3CBDDA40: 4000FF06 068A0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 691472C3 AB08A018 3FC7F8C4  .3..i.rC+. .?GxD
+3CBDDA60: 00001312 A46498B1 D473BEA3 CAD89A3E  ....$d.1Ts>#JX.>
+3CBDDA70: 00                                   .               
+
+04:46:01.425 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25F9  3K.>u..?..E@.O%y
+3CBDDA40: 40000106 852AD871 0E72D871 0E7100B3  @....*Xq.rXq.q.3
+3CBDDA50: C4C2C418 37077641 44F5A018 3B9F8B34  DBD.7.vADu .;..4
+3CBDDA60: 00001312 EA3A71EE 85EA796D 13180039  ....j:qn.jym...9
+3CBDDA70: 00                                   .               
+
+04:46:01.884 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C733B  .?.>u..?..E@.<s;
+3CBDDA40: 4000FF06 F7380ADE 7D660ADE 7D6500B3  @...w8.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE32F485 2518A010 3EF658E7  SG|.~2t.%. .>vXg
+3CBDDA60: 00001312 761CBAAD 9B2F136B 84DBDACE  ....v.:-./.k.[ZN
+ --More--         3CBDDA70: 00                                   .               
+
+04:46:10.077 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73B6  .?.>u..?..E@.<s6
+3CBDDA40: 4000FF06 BBDAC0A8 650DC0A8 650C8EF2  @...;Z@(e.@(e..r
+3CBDDA50: 00B331EE F26E174B 2457A010 3FDAE7EC  .31nrn.K$W .?Zgl
+3CBDDA60: 00001312 AD17FA14 90DDBF82 B878A16E  ....-.z..]?.8x!n
+3CBDDA70: 00                                   .               
+
+04:46:10.641 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97F9  l?.>u..?..E@.;.y
+3CBDDA40: 40000106 D8640ADE 79720ADE 79714033  @...Xd.^yr.^yq@3
+3CBDDA50: 00B356BD 0EE2C787 6B295018 3B328E9E  .3V=.bG.k)P.;2..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:46:12.021 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25FA  3K.>u..?..E@.<%z
+3CBDDA40: 40000106 853CD871 0E72D871 0E7100B3  @....<Xq.rXq.q.3
+3CBDDA50: C4C2C418 371A7641 4508A010 3B8C035D  DBD.7.vAE. .;..]
+3CBDDA60: 00001312 B8B08750 D67DB045 5B2AB6B0  ....80.PV}0E[*60
+3CBDDA70: 00                                   .               
+
+04:46:12.086 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEED3  0G.>u..?..E@.<nS
+3CBDDA40: 40000106 42210AAA 995A0AAA 995900B3  @...B!.*.Z.*.Y.3
+3CBDDA50: E41C725A AAFE7E3D 9C30A010 3B0AC720  d.rZ*~~=.0 .;.G 
+3CBDDA60: 00001312 95198273 7D2EAC2A 7B745956  .......s}.,*{tYV
+3CBDDA70: 00                                   .               
+
+04:46:16.220 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1F1  .?.>u..?..E@.(aq
+3CBDDA40: 4000FF06 889E0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2479CE5A 71AE5010 3FB41EA3  .Z?n$yNZq.P.?4.#
+3CBDDA60: 00000000 00000000 7D                 ........}       
+
+04:46:17.573 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897FA  l?.>u..?..E@.(.z
+3CBDDA40: 40000106 D8760ADE 79720ADE 79714033  @...Xv.^yr.^yq@3
+3CBDDA50: 00B356BD 0EF5C787 6B3C5010 3B1F92B9  .3V=.uG.k<P.;..9
+ --More--         3CBDDA60: 00000000 00000000 7D                 ........}       
+
+04:46:22.364 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6350  .?.>u..?..E@.<cP
+3CBDDA40: 4000FF06 069C0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 692772C3 AB1BA010 3FB46DB6  .3..i'rC+. .?4m6
+3CBDDA60: 00001312 FE94CA7B B5520330 5D02183D  ....~.J{5R.0]..=
+3CBDDA70: 00                                   .               
+
+04:46:28.836 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF591  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A630ADE 79A60ADE 79A500B3  @...zc.^y&.^y%.3
+3CBDDA50: 9B4A065A A6BFA74A 6C04A010 3F683B97  .J.Z&?'Jl. .?h;.
+3CBDDA60: 00001312 099DAF39 141ACB53 A5D4D334  ....../9..KS%TS4
+3CBDDA70: 00                                   .               
+
+04:46:29.860 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC21D  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE370ADE 79760ADE 7975C93F  @....7.^yv.^yuI?
+3CBDDA50: 00B37877 1309D90C 7E02A010 3F1C5DAB  .3xw..Y.~. .?.]+
+3CBDDA60: 00001312 6315F2CC 38599CDF DA2928EA  ....c.rL8Y._Z)(j
+3CBDDA70: 00                                   .               
+
+04:46:32.157 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32D6  l?.>u..?..E@.O2V
+3CBDDA40: 40000106 FCACC0A8 640BC0A8 640AA504  @...|,@(d.@(d.%.
+3CBDDA50: 00B36B14 14CA6395 8A04A018 3F8ECF3D  .3k..Jc... .?.O=
+3CBDDA60: 00001312 785D6F3E 1C064A1C 0C627FAF  ....x]o>..J..b./
+3CBDDA70: 00                                   .               
+
+04:46:33.181 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEED4  0G.>u..?..E@.OnT
+3CBDDA40: 40000106 420D0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AAFE7E3D 9C30A018 3B0AB106  d.rZ*~~=.0 .;.1.
+3CBDDA60: 00001312 20764451 AAE21011 80C10113  .... vDQ*b...A..
+3CBDDA70: 00                                   .               
+
+04:46:33.955 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32D7  l?.>u..?..E@.<2W
+3CBDDA40: 40000106 FCBEC0A8 640BC0A8 640AA504  @...|>@(d.@(d.%.
+ --More--         3CBDDA50: 00B36B14 14DD6395 8A17A010 3F7B05E4  .3k..]c... .?{.d
+3CBDDA60: 00001312 85F42467 EC9B3EB1 90C1FF18  .....t$gl.>1.A..
+3CBDDA70: 00                                   .               
+
+04:46:34.205 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC21E  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE230ADE 79760ADE 7975C93F  @....#.^yv.^yuI?
+3CBDDA50: 00B37877 1309D90C 7E02A018 3F1C978A  .3xw..Y.~. .?...
+3CBDDA60: 00001312 D86A9E30 53984234 82E92257  ....Xj.0S.B4.i"W
+3CBDDA70: 00                                   .               
+
+04:46:35.230 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF592  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A4F0ADE 79A60ADE 79A500B3  @...zO.^y&.^y%.3
+3CBDDA50: 9B4A065A A6BFA74A 6C04A018 3F680DC1  .J.Z&?'Jl. .?h.A
+3CBDDA60: 00001312 097D3A04 3863D6A7 8B6BB065  .....}:.8cV'.k0e
+3CBDDA70: 00                                   .               
+
+04:46:39.324 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73B7  .?.>u..?..E@.Os7
+3CBDDA40: 4000FF06 BBC6C0A8 650DC0A8 650C8EF2  @...;F@(e.@(e..r
+3CBDDA50: 00B331EE F26E174B 2457A018 3FDAD032  .31nrn.K$W .?ZP2
+3CBDDA60: 00001312 C6E9AA9C 23315D32 611E5019  ....Fi*.#1]2a.P.
+3CBDDA70: 00                                   .               
+
+04:46:40.348 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1F2  .?.>u..?..E@.;ar
+3CBDDA40: 4000FF06 888A0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2479CE5A 71AE5018 3FB41A75  .Z?n$yNZq.P.?4.u
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:46:41.372 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F733C  .?.>u..?..E@.Os<
+3CBDDA40: 4000FF06 F7240ADE 7D660ADE 7D6500B3  @...w$.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE32F485 2518A018 3EF6EE26  SG|.~2t.%. .>vn&
+3CBDDA60: 00001312 EEF5F0F1 2E3A7BC0 38D56CFF  ....nupq.:{@8Ul.
+3CBDDA70: 00                                   .               
+
+04:46:51.612 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+ --More--         3CBDDA30: 933F00BE 751598BF 080045C0 004F6351  .?.>u..?..E@.OcQ
+3CBDDA40: 4000FF06 06880ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 692772C3 AB1BA018 3FB4F103  .3..i'rC+. .?4q.
+3CBDDA60: 00001312 A5394EB4 9CFB294F F22D60F2  ....%9N4.{)Or-`r
+3CBDDA70: 00                                   .               
+
+04:46:52.635 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25FB  3K.>u..?..E@.O%{
+3CBDDA40: 40000106 8528D871 0E72D871 0E7100B3  @....(Xq.rXq.q.3
+3CBDDA50: C4C2C418 371A7641 4508A018 3B8C49D7  DBD.7.vAE. .;.IW
+3CBDDA60: 00001312 CEFF61F0 6EDDF77F 7C30E433  ....N.apn]w.|0d3
+3CBDDA70: 00                                   .               
+
+04:46:58.229 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C733D  .?.>u..?..E@.<s=
+3CBDDA40: 4000FF06 F7360ADE 7D660ADE 7D6500B3  @...w6.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE45F485 252BA010 3EE367D5  SG|.~Et.%+ .>cgU
+3CBDDA60: 00001312 36331059 09DAEB7E 0DB5D717  ....63.Y.Zk~.5W.
+3CBDDA70: 00                                   .               
+
+04:47:06.416 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73B8  .?.>u..?..E@.<s8
+3CBDDA40: 4000FF06 BBD8C0A8 650DC0A8 650C8EF2  @...;X@(e.@(e..r
+3CBDDA50: 00B331EE F281174B 246AA010 3FC7E6BA  .31nr..K$j .?Gf:
+3CBDDA60: 00001312 07C4528E D825AC6B E0FD032F  .....DR.X%,k`}./
+3CBDDA70: 00                                   .               
+
+04:47:07.443 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1F3  .?.>u..?..E@.(as
+3CBDDA40: 4000FF06 889C0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 248CCE5A 71C15010 3FA11E90  .Z?n$.NZqAP.?!..
+3CBDDA60: 00000000 00000000 D8                 ........X       
+
+04:47:10.045 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97FB  l?.>u..?..E@.;.{
+3CBDDA40: 40000106 D8620ADE 79720ADE 79714033  @...Xb.^yr.^yq@3
+3CBDDA50: 00B356BD 0EF5C787 6B3C5018 3B1F8E8B  .3V=.uG.k<P.;...
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:47:12.024 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+ --More--         3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25FC  3K.>u..?..E@.<%|
+3CBDDA40: 40000106 853AD871 0E72D871 0E7100B3  @....:Xq.rXq.q.3
+3CBDDA50: C4C2C418 372D7641 451BA010 3B796A49  DBD.7-vAE. .;yjI
+3CBDDA60: 00001312 86A47E5D 904CCA25 0553ABBF  .....$~].LJ%.S+?
+3CBDDA70: 00                                   .               
+
+04:47:12.090 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEED5  0G.>u..?..E@.<nU
+3CBDDA40: 40000106 421F0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB117E3D 9C43A010 3AF765D1  d.rZ+.~=.C .:weQ
+3CBDDA60: 00001312 C6526C42 33038130 81505501  ....FRlB3..0.PU.
+3CBDDA70: 00                                   .               
+
+04:47:14.612 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6352  .?.>u..?..E@.<cR
+3CBDDA40: 4000FF06 069A0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 693A72C3 AB2EA010 3FA10B7A  .3..i:rC+. .?!.z
+3CBDDA60: 00001312 214900FF E00149E4 0CF1AFE4  ....!I..`.Id.q/d
+3CBDDA70: 00                                   .               
+
+04:47:17.992 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897FC  l?.>u..?..E@.(.|
+3CBDDA40: 40000106 D8740ADE 79720ADE 79714033  @...Xt.^yr.^yq@3
+3CBDDA50: 00B356BD 0F08C787 6B4F5010 3B0C92A6  .3V=..G.kOP.;..&
+3CBDDA60: 00000000 00000000 E0                 ........`       
+
+04:47:19.017 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC21F  l?.>u..?..E@.<B.
+3CBDDA40: 40000106 AE350ADE 79760ADE 7975C93F  @....5.^yv.^yuI?
+3CBDDA50: 00B37877 131CD90C 7E15A010 3F091056  .3xw..Y.~. .?..V
+3CBDDA60: 00001312 357884E9 C8C283C1 C57C7C78  ....5x.iHB.AE||x
+3CBDDA70: 00                                   .               
+
+04:47:24.136 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF593  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A610ADE 79A60ADE 79A500B3  @...za.^y&.^y%.3
+3CBDDA50: 9B4A065A A6D2A74A 6C17A010 3F55C6DE  .J.Z&R'Jl. .?UF^
+3CBDDA60: 00001312 57C80CCD 886DEFD7 E2189687  ....WH.M.moWb...
+3CBDDA70: 00                                   .               
+
+04:47:24.381 UTC Sep 11 2018 : IPv4 Process    : None BD13
+ --More--         
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF594  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A4D0ADE 79A60ADE 79A500B3  @...zM.^y&.^y%.3
+3CBDDA50: 9B4A065A A6D2A74A 6C17A018 3F554003  .J.Z&R'Jl. .?U@.
+3CBDDA60: 00001312 C77AB1F5 75175C64 B6DB2B5A  ....Gz1uu.\d6[+Z
+3CBDDA70: 00                                   .               
+
+04:47:25.407 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32D8  l?.>u..?..E@.O2X
+3CBDDA40: 40000106 FCAAC0A8 640BC0A8 640AA504  @...|*@(d.@(d.%.
+3CBDDA50: 00B36B14 14DD6395 8A17A018 3F7B83FC  .3k..]c... .?{.|
+3CBDDA60: 00001312 6A6D14C7 216231A2 C7D1AA45  ....jm.G!b1"GQ*E
+3CBDDA70: 00                                   .               
+
+04:47:25.405 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC220  l?.>u..?..E@.OB 
+3CBDDA40: 40000106 AE210ADE 79760ADE 7975C93F  @....!.^yv.^yuI?
+3CBDDA50: 00B37877 131CD90C 7E15A018 3F093A42  .3xw..Y.~. .?.:B
+3CBDDA60: 00001312 A772A98F 4B51C883 34A3E23C  ....'r).KQH.4#b<
+3CBDDA70: 00                                   .               
+
+04:47:30.281 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32D9  l?.>u..?..E@.<2Y
+3CBDDA40: 40000106 FCBCC0A8 640BC0A8 640AA504  @...|<@(d.@(d.%.
+3CBDDA50: 00B36B14 14F06395 8A2AA010 3F682AE5  .3k..pc..* .?h*e
+3CBDDA60: 00001312 E6288964 9480BAE4 33C84C1A  ....f(.d..:d3HL.
+3CBDDA70: 00                                   .               
+
+04:47:33.595 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEED6  0G.>u..?..E@.OnV
+3CBDDA40: 40000106 420B0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB117E3D 9C43A018 3AF7B58C  d.rZ+.~=.C .:w5.
+3CBDDA60: 00001312 1C3978A5 FFBFC7C7 3B7B0052  .....9x%.?GG;{.R
+3CBDDA70: 00                                   .               
+
+04:47:36.667 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73B9  .?.>u..?..E@.Os9
+3CBDDA40: 4000FF06 BBC4C0A8 650DC0A8 650C8EF2  @...;D@(e.@(e..r
+3CBDDA50: 00B331EE F281174B 246AA018 3FC7AB32  .31nr..K$j .?G+2
+3CBDDA60: 00001312 9051BEA6 87A2D399 8DF5A713  .....Q>&."S..u'.
+3CBDDA70: 00                                   .               
+ --More--         
+04:47:36.669 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F733E  .?.>u..?..E@.Os>
+3CBDDA40: 4000FF06 F7220ADE 7D660ADE 7D6500B3  @...w".^}f.^}e.3
+3CBDDA50: D3C7FC09 FE45F485 252BA018 3EE3A824  SG|.~Et.%+ .>c($
+3CBDDA60: 00001312 E353F3F1 9624BB4F A0536147  ....cSsq.$;O SaG
+3CBDDA70: 00                                   .               
+
+04:47:38.718 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1F4  .?.>u..?..E@.;at
+3CBDDA40: 4000FF06 88880ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 248CCE5A 71C15018 3FA11A62  .Z?n$.NZqAP.?!.b
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:47:42.811 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6353  .?.>u..?..E@.OcS
+3CBDDA40: 4000FF06 06860ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 693A72C3 AB2EA018 3FA17284  .3..i:rC+. .?!r.
+3CBDDA60: 00001312 BA1D36F6 F61D76BE D693BBA5  ....:.6vv.v>V.;%
+3CBDDA70: 00                                   .               
+
+04:47:43.837 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25FD  3K.>u..?..E@.O%}
+3CBDDA40: 40000106 8526D871 0E72D871 0E7100B3  @....&Xq.rXq.q.3
+3CBDDA50: C4C2C418 372D7641 451BA018 3B790B9C  DBD.7-vAE. .;y..
+3CBDDA60: 00001312 72DC15A5 E0889E87 348ED7F5  ....r\.%`...4.Wu
+3CBDDA70: 00                                   .               
+
+04:47:48.401 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C733F  .?.>u..?..E@.<s?
+3CBDDA40: 4000FF06 F7340ADE 7D660ADE 7D6500B3  @...w4.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE58F485 253EA010 3ED01B86  SG|.~Xt.%> .>P..
+3CBDDA60: 00001312 BA1FFA1A BA605F55 61887757  ....:.z.:`_Ua.wW
+3CBDDA70: 00                                   .               
+
+04:48:00.693 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73BA  .?.>u..?..E@.<s:
+3CBDDA40: 4000FF06 BBD6C0A8 650DC0A8 650C8EF2  @...;V@(e.@(e..r
+3CBDDA50: 00B331EE F294174B 247DA010 3FB460DC  .31nr..K$} .?4`\
+ --More--         3CBDDA60: 00001312 B6FB187F 7E876819 FD9A066E  ....6{..~.h.}..n
+3CBDDA70: 00                                   .               
+
+04:48:07.144 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897FD  l?.>u..?..E@.(.}
+3CBDDA40: 40000106 D8730ADE 79720ADE 79714033  @...Xs.^yr.^yq@3
+3CBDDA50: 00B356BD 0F08C787 6B625010 3AF992A6  .3V=..G.kbP.:y.&
+3CBDDA60: 00000000 00000000 7E                 ........~       
+
+04:48:07.863 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1F5  .?.>u..?..E@.(au
+3CBDDA40: 4000FF06 889A0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 249FCE5A 71D45010 3F8E1E7D  .Z?n$.NZqTP.?..}
+3CBDDA60: 00000000 00000000 7E                 ........~       
+
+04:48:08.168 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC221  l?.>u..?..E@.<B!
+3CBDDA40: 40000106 AE330ADE 79760ADE 7975C93F  @....3.^yv.^yuI?
+3CBDDA50: 00B37877 132FD90C 7E28A010 3EF63995  .3xw./Y.~( .>v9.
+3CBDDA60: 00001312 BF4C963B EA589850 E0907ADB  ....?L.;jX.P`.z[
+3CBDDA70: 00                                   .               
+
+04:48:08.415 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B97FE  l?.>u..?..E@.;.~
+3CBDDA40: 40000106 D85F0ADE 79720ADE 79714033  @...X_.^yr.^yq@3
+3CBDDA50: 00B356BD 0F08C787 6B625018 3AF98E78  .3V=..G.kbP.:y.x
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:48:12.029 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C25FE  3K.>u..?..E@.<%~
+3CBDDA40: 40000106 8538D871 0E72D871 0E7100B3  @....8Xq.rXq.q.3
+3CBDDA50: C4C2C418 37407641 452EA010 3B66D44D  DBD.7@vAE. .;fTM
+3CBDDA60: 00001312 7225DCC4 2CDA2BD4 9FD8062D  ....r%\D,Z+T.X.-
+3CBDDA70: 00                                   .               
+
+04:48:12.090 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEED7  0G.>u..?..E@.<nW
+3CBDDA40: 40000106 421D0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB247E3D 9C56A010 3AE4D7F2  d.rZ+$~=.V .:dWr
+ --More--         3CBDDA60: 00001312 EB4A3CF5 6D28494F E95B1312  ....kJ<um(IOi[..
+3CBDDA70: 00                                   .               
+
+04:48:14.005 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6354  .?.>u..?..E@.<cT
+3CBDDA40: 4000FF06 06980ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 694D72C3 AB41A010 3F8E78AC  .3..iMrC+A .?.x,
+3CBDDA60: 00001312 39DF8B9F 63D5377B E2F4D543  ....9_..cU7{btUC
+3CBDDA70: 00                                   .               
+
+04:48:18.655 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC222  l?.>u..?..E@.OB"
+3CBDDA40: 40000106 AE1F0ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 132FD90C 7E28A018 3EF67680  .3xw./Y.~( .>vv.
+3CBDDA60: 00001312 335F8765 CDF90957 676A438D  ....3_.eMy.WgjC.
+3CBDDA70: 00                                   .               
+
+04:48:20.704 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF595  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A4C0ADE 79A60ADE 79A500B3  @...zL.^y&.^y%.3
+3CBDDA50: 9B4A065A A6E5A74A 6C17A018 3F550BE1  .J.Z&e'Jl. .?U.a
+3CBDDA60: 00001312 9825E4B8 0C69C2AA 216E30C1  .....%d8.iB*!n0A
+3CBDDA70: 00                                   .               
+
+04:48:21.488 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32DA  l?.>u..?..E@.<2Z
+3CBDDA40: 40000106 FCBBC0A8 640BC0A8 640AA504  @...|;@(d.@(d.%.
+3CBDDA50: 00B36B14 14F06395 8A3DA010 3F55FE31  .3k..pc..= .?U~1
+3CBDDA60: 00001312 683AAAAB FCA31D6D 930713CD  ....h:*+|#.m...M
+3CBDDA70: 00                                   .               
+
+04:48:22.752 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32DB  l?.>u..?..E@.O2[
+3CBDDA40: 40000106 FCA7C0A8 640BC0A8 640AA504  @...|'@(d.@(d.%.
+3CBDDA50: 00B36B14 14F06395 8A3DA018 3F555765  .3k..pc..= .?UWe
+3CBDDA60: 00001312 90E5896A 11A00FFD 54943B65  .....e.j. .}T.;e
+3CBDDA70: 00                                   .               
+
+04:48:24.562 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF596  l?.>u..?..E@.<u.
+ --More--         3CBDDA40: 40000106 7A5E0ADE 79A60ADE 79A500B3  @...z^.^y&.^y%.3
+3CBDDA50: 9B4A065A A6F8A74A 6C2AA010 3F42C54F  .J.Z&x'Jl* .?BEO
+3CBDDA60: 00001312 5F965BCE 6BC78692 FFE5D796  ...._.[NkG...eW.
+3CBDDA70: 00                                   .               
+
+04:48:28.896 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73BB  .?.>u..?..E@.Os;
+3CBDDA40: 4000FF06 BBC2C0A8 650DC0A8 650C8EF2  @...;B@(e.@(e..r
+3CBDDA50: 00B331EE F294174B 247DA018 3FB4C8AD  .31nr..K$} .?4H-
+3CBDDA60: 00001312 9FB5524D 59CB8F74 062F2FC6  .....5RMYK.t.//F
+3CBDDA70: 00                                   .               
+
+04:48:29.920 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEED8  0G.>u..?..E@.OnX
+3CBDDA40: 40000106 42090AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB247E3D 9C56A018 3AE4186C  d.rZ+$~=.V .:d.l
+3CBDDA60: 00001312 2C9871F3 919BD5B6 63D21B3D  ....,.qs..U6cR.=
+3CBDDA70: 00                                   .               
+
+04:48:32.991 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1F6  .?.>u..?..E@.;av
+3CBDDA40: 4000FF06 88860ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 249FCE5A 71D45018 3F8E1A4F  .Z?n$.NZqTP.?..O
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:48:32.991 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6355  .?.>u..?..E@.OcU
+3CBDDA40: 4000FF06 06840ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 694D72C3 AB41A018 3F8E483A  .3..iMrC+A .?.H:
+3CBDDA60: 00001312 C99B9F1F 97206C44 076B03EC  ....I.... lD.k.l
+3CBDDA70: 00                                   .               
+
+04:48:35.039 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7340  .?.>u..?..E@.Os@
+3CBDDA40: 4000FF06 F7200ADE 7D660ADE 7D6500B3  @...w .^}f.^}e.3
+3CBDDA50: D3C7FC09 FE58F485 253EA018 3ED02301  SG|.~Xt.%> .>P#.
+3CBDDA60: 00001312 BF4AD8D7 3BE6F1BD E1E4886F  ....?JXW;fq=ad.o
+3CBDDA70: 00                                   .               
+
+04:48:37.087 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+ --More--         3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F25FF  3K.>u..?..E@.O%.
+3CBDDA40: 40000106 8524D871 0E72D871 0E7100B3  @....$Xq.rXq.q.3
+3CBDDA50: C4C2C418 37407641 452EA018 3B6675B5  DBD.7@vAE. .;fu5
+3CBDDA60: 00001312 628B86DD 7BAFF4B5 84C43E20  ....b..]{/t5.D> 
+3CBDDA70: 00                                   .               
+
+04:48:48.816 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7341  .?.>u..?..E@.<sA
+3CBDDA40: 4000FF06 F7320ADE 7D660ADE 7D6500B3  @...w2.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE6BF485 2551A010 3EBDBEEF  SG|.~kt.%Q .>=>o
+3CBDDA60: 00001312 011D144F C4ACB1FF 43463C62  .......OD,1.CF<b
+3CBDDA70: 00                                   .               
+
+04:48:51.896 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73BC  .?.>u..?..E@.<s<
+3CBDDA40: 4000FF06 BBD4C0A8 650DC0A8 650C8EF2  @...;T@(e.@(e..r
+3CBDDA50: 00B331EE F2A7174B 2490A010 3FA10B67  .31nr'.K$. .?!.g
+3CBDDA60: 00001312 A71E2984 173E54BF ABB015E2  ....'.)..>T?+0.b
+3CBDDA70: 00                                   .               
+
+04:48:57.329 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 002897FF  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D8710ADE 79720ADE 79714033  @...Xq.^yr.^yq@3
+3CBDDA50: 00B356BD 0F1BC787 6B755010 3AE69293  .3V=..G.kuP.:f..
+3CBDDA60: 00000000 00000000 17                 .........       
+
+04:49:02.132 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1F7  .?.>u..?..E@.(aw
+3CBDDA40: 4000FF06 88980ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24B2CE5A 71E75010 3F7B1E6A  .Z?n$2NZqgP.?{.j
+3CBDDA60: 00000000 00000000 17                 .........       
+
+04:49:07.568 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC223  l?.>u..?..E@.<B#
+3CBDDA40: 40000106 AE310ADE 79760ADE 7975C93F  @....1.^yv.^yuI?
+3CBDDA50: 00B37877 1342D90C 7E3BA010 3EE34E76  .3xw.BY.~; .>cNv
+3CBDDA60: 00001312 825E2F08 D3A15AF7 203F0E33  .....^/.S!Zw ?.3
+3CBDDA70: 00                                   .               
+
+04:49:07.812 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+ --More--         3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC224  l?.>u..?..E@.OB$
+3CBDDA40: 40000106 AE1D0ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 1342D90C 7E3BA018 3EE33087  .3xw.BY.~; .>c0.
+3CBDDA60: 00001312 2E027AC5 B885AC41 91C224EA  ......zE8.,A.B$j
+3CBDDA70: 00                                   .               
+
+04:49:08.836 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B9800  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D85D0ADE 79720ADE 79714033  @...X].^yr.^yq@3
+3CBDDA50: 00B356BD 0F1BC787 6B755018 3AE68E65  .3V=..G.kuP.:f.e
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:49:11.349 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6356  .?.>u..?..E@.<cV
+3CBDDA40: 4000FF06 06960ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 696072C3 AB54A010 3F7B31EF  .3..i`rC+T .?{1o
+3CBDDA60: 00001312 47D4F1B1 A7DC138A 43853A17  ....GTq1'\..C.:.
+3CBDDA70: 00                                   .               
+
+04:49:12.032 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C2600  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 8536D871 0E72D871 0E7100B3  @....6Xq.rXq.q.3
+3CBDDA50: C4C2C418 37537641 4541A010 3B53F171  DBD.7SvAEA .;Sqq
+3CBDDA60: 00001312 CE909D2F 54730611 99FD949A  ....N../Ts...}..
+3CBDDA70: 00                                   .               
+
+04:49:12.092 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEED9  0G.>u..?..E@.<nY
+3CBDDA40: 40000106 421B0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB377E3D 9C69A010 3AD1627A  d.rZ+7~=.i .:Qbz
+3CBDDA60: 00001312 16A8FAE1 E3229812 C924B5C0  .....(zac"..I$5@
+3CBDDA70: 00                                   .               
+
+04:49:18.052 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF597  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A4A0ADE 79A60ADE 79A500B3  @...zJ.^y&.^y%.3
+3CBDDA50: 9B4A065A A6F8A74A 6C2AA018 3F420DC2  .J.Z&x'Jl* .?B.B
+3CBDDA60: 00001312 BA4C6C61 171EF38B 1652C3CA  ....:Lla..s..RCJ
+3CBDDA70: 00                                   .               
+
+ --More--         04:49:18.052 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32DC  l?.>u..?..E@.O2\
+3CBDDA40: 40000106 FCA6C0A8 640BC0A8 640AA504  @...|&@(d.@(d.%.
+3CBDDA50: 00B36B14 15036395 8A3DA018 3F55DE57  .3k...c..= .?U^W
+3CBDDA60: 00001312 5EC633C4 DFCF1E39 9FAF4584  ....^F3D_O.9./E.
+3CBDDA70: 00                                   .               
+
+04:49:18.833 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32DD  l?.>u..?..E@.<2]
+3CBDDA40: 40000106 FCB8C0A8 640BC0A8 640AA504  @...|8@(d.@(d.%.
+3CBDDA50: 00B36B14 15166395 8A50A010 3F422916  .3k...c..P .?B).
+3CBDDA60: 00001312 6A88EF14 13910172 B7B7579A  ....j.o....r77W.
+3CBDDA70: 00                                   .               
+
+04:49:19.855 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF598  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A5C0ADE 79A60ADE 79A500B3  @...z\.^y&.^y%.3
+3CBDDA50: 9B4A065A A70BA74A 6C3DA010 3F2F86D8  .J.Z'.'Jl= .?/.X
+3CBDDA60: 00001312 F3059792 E28B02DA 1CE9C45F  ....s...b..Z.iD_
+3CBDDA70: 00                                   .               
+
+04:49:22.148 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6357  .?.>u..?..E@.OcW
+3CBDDA40: 4000FF06 06820ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 696072C3 AB54A018 3F7BF9E0  .3..i`rC+T .?{y`
+3CBDDA60: 00001312 961B1E62 2759448C 17633054  .......b'YD..c0T
+3CBDDA70: 00                                   .               
+
+04:49:23.173 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7342  .?.>u..?..E@.OsB
+3CBDDA40: 4000FF06 F71E0ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FE6BF485 2551A018 3EBDECE3  SG|.~kt.%Q .>=lc
+3CBDDA60: 00001312 65C3593F 4D53D0AA EC83448B  ....eCY?MSP*l.D.
+3CBDDA70: 00                                   .               
+
+04:49:27.268 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73BD  .?.>u..?..E@.Os=
+3CBDDA40: 4000FF06 BBC0C0A8 650DC0A8 650C8EF2  @...;@@(e.@(e..r
+3CBDDA50: 00B331EE F2A7174B 2490A018 3FA1BC74  .31nr'.K$. .?!<t
+3CBDDA60: 00001312 ACC838DC 0F609ED6 6E37E1CE  ....,H8\.`.Vn7aN
+ --More--         3CBDDA70: 00                                   .               
+
+04:49:28.292 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1F8  .?.>u..?..E@.;ax
+3CBDDA40: 4000FF06 88840ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24B2CE5A 71E75018 3F7B1A3C  .Z?n$2NZqgP.?{.<
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:49:30.341 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEDA  0G.>u..?..E@.OnZ
+3CBDDA40: 40000106 42070AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB377E3D 9C69A018 3AD15AF1  d.rZ+7~=.i .:QZq
+3CBDDA60: 00001312 C8AF03E5 09B384D2 22A0EE10  ....H/.e.3.R" n.
+3CBDDA70: 00                                   .               
+
+04:49:34.440 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F2601  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 8522D871 0E72D871 0E7100B3  @...."Xq.rXq.q.3
+3CBDDA50: C4C2C418 37537641 4541A018 3B53173E  DBD.7SvAEA .;S.>
+3CBDDA60: 00001312 CDF6622D E9337FDE 4729785C  ....Mvb-i3.^G)x\
+3CBDDA70: 00                                   .               
+
+04:49:37.996 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7343  .?.>u..?..E@.<sC
+3CBDDA40: 4000FF06 F7300ADE 7D660ADE 7D6500B3  @...w0.^}f.^}e.3
+3CBDDA50: D3C7FC09 FE7EF485 2564A010 3EAA21CD  SG|.~~t.%d .>*!M
+3CBDDA60: 00001312 455B29B1 B96B0EE1 65502108  ....E[)19k.aeP!.
+3CBDDA70: 00                                   .               
+
+04:49:45.164 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73BE  .?.>u..?..E@.<s>
+3CBDDA40: 4000FF06 BBD2C0A8 650DC0A8 650C8EF2  @...;R@(e.@(e..r
+3CBDDA50: 00B331EE F2BA174B 24A3A010 3F8E0847  .31nr:.K$# .?..G
+3CBDDA60: 00001312 25C57741 DBB0FA5B 480B6851  ....%EwA[0z[H.hQ
+3CBDDA70: 00                                   .               
+
+04:49:47.509 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 00289801  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D86F0ADE 79720ADE 79714033  @...Xo.^yr.^yq@3
+ --More--         3CBDDA50: 00B356BD 0F2EC787 6B885010 3AD39280  .3V=..G.k.P.:S..
+3CBDDA60: 00000000 00000000 DB                 ........[       
+
+04:49:55.404 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1F9  .?.>u..?..E@.(ay
+3CBDDA40: 4000FF06 88960ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24C5CE5A 71FA5010 3F681E57  .Z?n$ENZqzP.?h.W
+3CBDDA60: 00000000 00000000 DB                 ........[       
+
+04:49:59.499 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6358  .?.>u..?..E@.<cX
+3CBDDA40: 4000FF06 06940ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 697372C3 AB67A010 3F68F40E  .3..isrC+g .?ht.
+3CBDDA60: 00001312 D7D3AA2B E0F92E7E 501A8BD3  ....WS*+`y.~P..S
+3CBDDA70: 00                                   .               
+
+04:50:00.041 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC225  l?.>u..?..E@.OB%
+3CBDDA40: 40000106 AE1C0ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 1355D90C 7E3BA018 3EE3AA1F  .3xw.UY.~; .>c*.
+3CBDDA60: 00001312 260BAFED EF54877B 8E7FD7A4  ....&./moT.{..W$
+3CBDDA70: 00                                   .               
+
+04:50:06.184 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B9802  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D85B0ADE 79720ADE 79714033  @...X[.^yr.^yq@3
+3CBDDA50: 00B356BD 0F2EC787 6B885018 3AD38E52  .3V=..G.k.P.:S.R
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:50:06.968 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC226  l?.>u..?..E@.<B&
+3CBDDA40: 40000106 AE2E0ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 1368D90C 7E4EA010 3ED0219E  .3xw.hY.~N .>P!.
+3CBDDA60: 00001312 A88DD34F 947A9ABF 027EDA0A  ....(.SO.z.?.~Z.
+3CBDDA70: 00                                   .               
+
+04:50:10.037 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32DE  l?.>u..?..E@.<2^
+3CBDDA40: 40000106 FCB7C0A8 640BC0A8 640AA504  @...|7@(d.@(d.%.
+ --More--         3CBDDA50: 00B36B14 15166395 8A63A010 3F2FEADF  .3k...c..c .?/j_
+3CBDDA60: 00001312 4F96A416 7FBAD09E DEB14733  ....O.$..:P.^1G3
+3CBDDA70: 00                                   .               
+
+04:50:10.280 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF599  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A480ADE 79A60ADE 79A500B3  @...zH.^y&.^y%.3
+3CBDDA50: 9B4A065A A70BA74A 6C3DA018 3F2FD8D1  .J.Z'.'Jl= .?/XQ
+3CBDDA60: 00001312 9D7B4ACA AA3D7DB5 3E4C9493  .....{JJ*=}5>L..
+3CBDDA70: 00                                   .               
+
+04:50:12.044 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C2602  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 8534D871 0E72D871 0E7100B3  @....4Xq.rXq.q.3
+3CBDDA50: C4C2C418 37667641 4554A010 3B403FA8  DBD.7fvAET .;@?(
+3CBDDA60: 00001312 CF29B8B1 C7D707F5 37F05759  ....O)81GW.u7pWY
+3CBDDA70: 00                                   .               
+
+04:50:12.101 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEDB  0G.>u..?..E@.<n[
+3CBDDA40: 40000106 42190AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB4A7E3D 9C7CA010 3ABEA69C  d.rZ+J~=.| .:>&.
+3CBDDA60: 00001312 0AD8C92D C458C48A A8EEC023  .....XI-DXD.(n@#
+3CBDDA70: 00                                   .               
+
+04:50:12.329 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32DF  l?.>u..?..E@.O2_
+3CBDDA40: 40000106 FCA3C0A8 640BC0A8 640AA504  @...|#@(d.@(d.%.
+3CBDDA50: 00B36B14 15166395 8A63A018 3F2F9A7F  .3k...c..c .?/..
+3CBDDA60: 00001312 DFB31CEC 46F93AE0 8CEE2F0E  ...._3.lFy:`.n/.
+3CBDDA70: 00                                   .               
+
+04:50:13.108 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF59A  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A5A0ADE 79A60ADE 79A500B3  @...zZ.^y&.^y%.3
+3CBDDA50: 9B4A065A A71EA74A 6C50A010 3F1CE42A  .J.Z'.'JlP .?.d*
+3CBDDA60: 00001312 BA162F78 3481E0DE A03C5743  ....:./x4.`^ <WC
+3CBDDA70: 00                                   .               
+
+04:50:18.471 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+ --More--         3CBDDA30: 933F00BE 751598BF 080045C0 004F6359  .?.>u..?..E@.OcY
+3CBDDA40: 4000FF06 06800ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 697372C3 AB67A018 3F684CC2  .3..isrC+g .?hLB
+3CBDDA60: 00001312 F9258854 923580B0 36F37A76  ....y%.T.5.06szv
+3CBDDA70: 00                                   .               
+
+04:50:19.495 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7344  .?.>u..?..E@.OsD
+3CBDDA40: 4000FF06 F71C0ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FE7EF485 2564A018 3EAAA7A4  SG|.~~t.%d .>*'$
+3CBDDA60: 00001312 B9632D32 45F4A308 8417478B  ....9c-2Et#...G.
+3CBDDA70: 00                                   .               
+
+04:50:21.543 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73BF  .?.>u..?..E@.Os?
+3CBDDA40: 4000FF06 BBBEC0A8 650DC0A8 650C8EF2  @...;>@(e.@(e..r
+3CBDDA50: 00B331EE F2BA174B 24A3A018 3F8EAFCF  .31nr:.K$# .?./O
+3CBDDA60: 00001312 1FA2D6A5 95514BFF A5253DAC  ....."V%.QK.%%=,
+3CBDDA70: 00                                   .               
+
+04:50:22.570 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1FA  .?.>u..?..E@.;az
+3CBDDA40: 4000FF06 88820ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24C5CE5A 71FA5018 3F681A29  .Z?n$ENZqzP.?h.)
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:50:25.640 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F2603  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 8520D871 0E72D871 0E7100B3  @.... Xq.rXq.q.3
+3CBDDA50: C4C2C418 37667641 4554A018 3B40A48D  DBD.7fvAET .;@$.
+3CBDDA60: 00001312 9A9BED0C 3DF614B6 896A3A38  ......m.=v.6.j:8
+3CBDDA70: 00                                   .               
+
+04:50:28.713 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEDC  0G.>u..?..E@.On\
+3CBDDA40: 40000106 42050AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB4A7E3D 9C7CA018 3ABE4126  d.rZ+J~=.| .:>A&
+3CBDDA60: 00001312 754DABFD 97923929 7E6D893D  ....uM+}..9)~m.=
+3CBDDA70: 00                                   .               
+
+04:50:34.312 UTC Sep 11 2018 : IPv4 Process    : None BD192
+ --More--         
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73C0  .?.>u..?..E@.<s@
+3CBDDA40: 4000FF06 BBD0C0A8 650DC0A8 650C8EF2  @...;P@(e.@(e..r
+3CBDDA50: 00B331EE F2CD174B 24B6A010 3F7B9B81  .31nrM.K$6 .?{..
+3CBDDA60: 00001312 0F38E64C D5F7F12B 1C411A17  .....8fLUwq+.A..
+3CBDDA70: 00                                   .               
+
+04:50:35.342 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7345  .?.>u..?..E@.<sE
+3CBDDA40: 4000FF06 F72E0ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FE91F485 2577A010 3E97FB97  SG|.~.t.%w .>.{.
+3CBDDA60: 00001312 1DBD7F16 E546007A BC1B8151  .....=..eF.z<..Q
+3CBDDA70: 00                                   .               
+
+04:50:41.778 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 00289803  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D86D0ADE 79720ADE 79714033  @...Xm.^yr.^yq@3
+3CBDDA50: 00B356BD 0F41C787 6B9B5010 3AC0926D  .3V=.AG.k.P.:@.m
+3CBDDA60: 00000000 00000000 E5                 ........e       
+
+04:50:49.675 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1FB  .?.>u..?..E@.(a{
+3CBDDA40: 4000FF06 88940ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24D8CE5A 720D5010 3F551E44  .Z?n$XNZr.P.?U.D
+3CBDDA60: 00000000 00000000 E5                 ........e       
+
+04:50:53.771 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C635A  .?.>u..?..E@.<cZ
+3CBDDA40: 4000FF06 06920ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 698672C3 AB7AA010 3F55D63E  .3..i.rC+z .?UV>
+3CBDDA60: 00001312 0F6A1E10 7A879C0E 3563E4D2  .....j..z...5cdR
+3CBDDA70: 00                                   .               
+
+04:50:56.119 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC227  l?.>u..?..E@.<B'
+3CBDDA40: 40000106 AE2D0ADE 79760ADE 7975C93F  @....-.^yv.^yuI?
+3CBDDA50: 00B37877 1368D90C 7E61A010 3EBD9F93  .3xw.hY.~a .>=..
+3CBDDA60: 00001312 29E9E42A C47CB8B7 557AF7E1  ....)id*D|87Uzwa
+3CBDDA70: 00                                   .               
+
+04:50:59.193 UTC Sep 11 2018 : IPv4 Process    : None BD12
+ --More--         
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32E0  l?.>u..?..E@.<2`
+3CBDDA40: 40000106 FCB5C0A8 640BC0A8 640AA504  @...|5@(d.@(d.%.
+3CBDDA50: 00B36B14 15296395 8A76A010 3F1C1CD9  .3k..)c..v .?..Y
+3CBDDA60: 00001312 0D065BE3 6120BA2A 7AB1B576  ......[ca :*z15v
+3CBDDA70: 00                                   .               
+
+04:50:59.437 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC228  l?.>u..?..E@.OB(
+3CBDDA40: 40000106 AE190ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 1368D90C 7E61A018 3EBD60B6  .3xw.hY.~a .>=`6
+3CBDDA60: 00001312 CC63A5ED 08E6FD9F DFFD7F83  ....Lc%m.f}._}..
+3CBDDA70: 00                                   .               
+
+04:51:01.484 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF59B  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A460ADE 79A60ADE 79A500B3  @...zF.^y&.^y%.3
+3CBDDA50: 9B4A065A A71EA74A 6C50A018 3F1C7066  .J.Z'.'JlP .?.pf
+3CBDDA60: 00001312 2FD68972 9086BAD2 125A52B5  ..../V.r..:R.ZR5
+3CBDDA70: 00                                   .               
+
+04:51:03.537 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B9804  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D8590ADE 79720ADE 79714033  @...XY.^yr.^yq@3
+3CBDDA50: 00B356BD 0F41C787 6B9B5018 3AC08E3F  .3V=.AG.k.P.:@.?
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:51:03.537 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32E1  l?.>u..?..E@.O2a
+3CBDDA40: 40000106 FCA1C0A8 640BC0A8 640AA504  @...|!@(d.@(d.%.
+3CBDDA50: 00B36B14 15296395 8A76A018 3F1C8FB2  .3k..)c..v .?..2
+3CBDDA60: 00001312 EC35542B 8C6DB9DD 2C4CFB45  ....l5T+.m9],L{E
+3CBDDA70: 00                                   .               
+
+04:51:06.361 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF59C  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A580ADE 79A60ADE 79A500B3  @...zX.^y&.^y%.3
+3CBDDA50: 9B4A065A A731A74A 6C63A010 3F098FD2  .J.Z'1'Jlc .?..R
+3CBDDA60: 00001312 6E2A8028 2185D678 B85AC445  ....n*.(!.Vx8ZDE
+3CBDDA70: 00                                   .               
+ --More--         
+04:51:10.703 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1FC  .?.>u..?..E@.;a|
+3CBDDA40: 4000FF06 88800ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24D8CE5A 720D5018 3F551A16  .Z?n$XNZr.P.?U..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:51:12.040 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C2604  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 8532D871 0E72D871 0E7100B3  @....2Xq.rXq.q.3
+3CBDDA50: C4C2C418 37797641 4567A010 3B2D9E13  DBD.7yvAEg .;-..
+3CBDDA60: 00001312 6C5188B5 0D3BB94A B650D0C6  ....lQ.5.;9J6PPF
+3CBDDA70: 00                                   .               
+
+04:51:12.099 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEDD  0G.>u..?..E@.<n]
+3CBDDA40: 40000106 42170AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB5D7E3D 9C8FA010 3AABFC3F  d.rZ+]~=.. .:+|?
+3CBDDA60: 00001312 A317AB12 AB7B5B0A 98587419  ....#.+.+{[..Xt.
+3CBDDA70: 00                                   .               
+
+04:51:13.776 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F635B  .?.>u..?..E@.Oc[
+3CBDDA40: 4000FF06 067E0ADE 7DAA0ADE 7DA9633C  @....~.^}*.^})c<
+3CBDDA50: 00B30085 698672C3 AB7AA018 3F55767C  .3..i.rC+z .?Uv|
+3CBDDA60: 00001312 3FAF8D67 18C49772 C486F734  ....?/.g.D.rD.w4
+3CBDDA70: 00                                   .               
+
+04:51:18.896 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7346  .?.>u..?..E@.OsF
+3CBDDA40: 4000FF06 F71A0ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FE91F485 2577A018 3E970489  SG|.~.t.%w .>...
+3CBDDA60: 00001312 1C501FC8 7940BDE3 A0991AA8  .....P.Hy@=c ..(
+3CBDDA70: 00                                   .               
+
+04:51:19.920 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73C1  .?.>u..?..E@.OsA
+3CBDDA40: 4000FF06 BBBCC0A8 650DC0A8 650C8EF2  @...;<@(e.@(e..r
+3CBDDA50: 00B331EE F2CD174B 24B6A018 3F7BF00A  .31nrM.K$6 .?{p.
+ --More--         3CBDDA60: 00001312 F69F001C FE65AD9E D2C9248E  ....v...~e-.RI$.
+3CBDDA70: 00                                   .               
+
+04:51:24.017 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F2605  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 851ED871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 37797641 4567A018 3B2D8872  DBD.7yvAEg .;-.r
+3CBDDA60: 00001312 A09B11F4 A0C8B896 9EC360DB  .... ..t H8..C`[
+3CBDDA70: 00                                   .               
+
+04:51:25.040 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEDE  0G.>u..?..E@.On^
+3CBDDA40: 40000106 42030AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB5D7E3D 9C8FA018 3AAB76D7  d.rZ+]~=.. .:+vW
+3CBDDA60: 00001312 1EDCF557 1D4600F0 22245102  .....\uW.F.p"$Q.
+3CBDDA70: 00                                   .               
+
+04:51:27.569 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73C2  .?.>u..?..E@.<sB
+3CBDDA40: 4000FF06 BBCEC0A8 650DC0A8 650C8EF2  @...;N@(e.@(e..r
+3CBDDA50: 00B331EE F2E0174B 24C9A010 3F68B288  .31nr`.K$I .?h2.
+3CBDDA60: 00001312 81B8C69B 0576036D EA0416E9  .....8F..v.mj..i
+3CBDDA70: 00                                   .               
+
+04:51:29.612 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7347  .?.>u..?..E@.<sG
+3CBDDA40: 4000FF06 F72C0ADE 7D660ADE 7D6500B3  @...w,.^}f.^}e.3
+3CBDDA50: D3C7FC09 FEA4F485 258AA010 3E84C364  SG|.~$t.%. .>.Cd
+3CBDDA60: 00001312 03F19C11 5F93242E 1CD32469  .....q.._.$..S$i
+3CBDDA70: 00                                   .               
+
+04:51:35.036 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 00289805  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D86B0ADE 79720ADE 79714033  @...Xk.^yr.^yq@3
+3CBDDA50: 00B356BD 0F54C787 6BAE5010 3AAD925A  .3V=.TG.k.P.:-.Z
+3CBDDA60: 00000000 00000000 5F                 ........_       
+
+04:51:41.903 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1FD  .?.>u..?..E@.(a}
+3CBDDA40: 4000FF06 88920ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+ --More--         3CBDDA50: 9C5A3F6E 24EBCE5A 72205010 3F421E31  .Z?n$kNZr P.?B.1
+3CBDDA60: 00000000 00000000 5F                 ........_       
+
+04:51:48.347 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32E2  l?.>u..?..E@.<2b
+3CBDDA40: 40000106 FCB3C0A8 640BC0A8 640AA504  @...|3@(d.@(d.%.
+3CBDDA50: 00B36B14 153C6395 8A89A010 3F0914DC  .3k..<c... .?..\
+3CBDDA60: 00001312 0D578130 287B84BA E13E549A  .....W.0({.:a>T.
+3CBDDA70: 00                                   .               
+
+04:51:50.097 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C635C  .?.>u..?..E@.<c\
+3CBDDA40: 4000FF06 06900ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 699972C3 AB8DA010 3F425B64  .3..i.rC+. .?B[d
+3CBDDA60: 00001312 3EC435C6 82010E95 8D323B64  ....>D5F.....2;d
+3CBDDA70: 00                                   .               
+
+04:51:50.396 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC229  l?.>u..?..E@.<B)
+3CBDDA40: 40000106 AE2B0ADE 79760ADE 7975C93F  @....+.^yv.^yuI?
+3CBDDA50: 00B37877 137BD90C 7E74A010 3EAAED3F  .3xw.{Y.~t .>*m?
+3CBDDA60: 00001312 36B1FA7E ECDA5BB5 21CDEDCF  ....61z~lZ[5!MmO
+3CBDDA70: 00                                   .               
+
+04:51:51.663 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF59D  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A440ADE 79A60ADE 79A500B3  @...zD.^y&.^y%.3
+3CBDDA50: 9B4A065A A731A74A 6C63A018 3F0928A4  .J.Z'1'Jlc .?.($
+3CBDDA60: 00001312 93F9962F 4A5C7226 7AC6788F  .....y./J\r&zFx.
+3CBDDA70: 00                                   .               
+
+04:51:53.712 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC22A  l?.>u..?..E@.OB*
+3CBDDA40: 40000106 AE170ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 137BD90C 7E74A018 3EAA56DA  .3xw.{Y.~t .>*VZ
+3CBDDA60: 00001312 026498A6 84B77C77 BCBBCEBC  .....d.&.7|w<;N<
+3CBDDA70: 00                                   .               
+
+04:51:56.784 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32E3  l?.>u..?..E@.O2c
+ --More--         3CBDDA40: 40000106 FC9FC0A8 640BC0A8 640AA504  @...|.@(d.@(d.%.
+3CBDDA50: 00B36B14 153C6395 8A89A018 3F0937B8  .3k..<c... .?.78
+3CBDDA60: 00001312 F3BEF0E0 63ED5EFF 4BA71677  ....s>p`cm^.K'.w
+3CBDDA70: 00                                   .               
+
+04:51:59.857 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE1FE  .?.>u..?..E@.;a~
+3CBDDA40: 4000FF06 887E0ADE 7D620ADE 7D6100B3  @....~.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24EBCE5A 72205018 3F421A03  .Z?n$kNZr P.?B..
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:52:00.878 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B9806  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D8570ADE 79720ADE 79714033  @...XW.^yr.^yq@3
+3CBDDA50: 00B356BD 0F54C787 6BAE5018 3AAD8E2C  .3V=.TG.k.P.:-.,
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:52:05.756 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF59E  l?.>u..?..E@.<u.
+3CBDDA40: 40000106 7A560ADE 79A60ADE 79A500B3  @...zV.^y&.^y%.3
+3CBDDA50: 9B4A065A A744A74A 6C76A010 3EF68F8F  .J.Z'D'Jlv .>v..
+3CBDDA60: 00001312 E5EADCF7 7979D0F9 2AE14773  ....ej\wyyPy*aGs
+3CBDDA70: 00                                   .               
+
+04:52:12.049 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C2606  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 8530D871 0E72D871 0E7100B3  @....0Xq.rXq.q.3
+3CBDDA50: C4C2C418 378C7641 457AA010 3B1A7E1D  DBD.7.vAEz .;.~.
+3CBDDA60: 00001312 FD0F28C0 5A09FE3A 88DFC9FA  ....}.(@Z.~:._Iz
+3CBDDA70: 00                                   .               
+
+04:52:12.104 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEDF  0G.>u..?..E@.<n_
+3CBDDA40: 40000106 42150AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB707E3D 9CA2A010 3A9826B5  d.rZ+p~=." .:.&5
+3CBDDA60: 00001312 86B43724 04A089C5 48F729ED  .....47$. .EHw)m
+3CBDDA70: 00                                   .               
+
+04:52:12.144 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+ --More--         3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7348  .?.>u..?..E@.OsH
+3CBDDA40: 4000FF06 F7180ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FEA4F485 258AA018 3E843613  SG|.~$t.%. .>.6.
+3CBDDA60: 00001312 B828CDB2 12E52956 18B4258F  ....8(M2.e)V.4%.
+3CBDDA70: 00                                   .               
+
+04:52:13.171 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F2607  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 851CD871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 378C7641 457AA018 3B1A6C53  DBD.7.vAEz .;.lS
+3CBDDA60: 00001312 4D86F7A7 3C348FC9 C3E47A79  ....M.w'<4.ICdzy
+3CBDDA70: 00                                   .               
+
+04:52:14.193 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F635D  .?.>u..?..E@.Oc]
+3CBDDA40: 4000FF06 067C0ADE 7DAA0ADE 7DA9633C  @....|.^}*.^})c<
+3CBDDA50: 00B30085 699972C3 AB8DA018 3F42A0C8  .3..i.rC+. .?B H
+3CBDDA60: 00001312 68159263 BD920113 9A0EABC3  ....h..c=.....+C
+3CBDDA70: 00                                   .               
+
+04:52:15.217 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73C3  .?.>u..?..E@.OsC
+3CBDDA40: 4000FF06 BBBAC0A8 650DC0A8 650C8EF2  @...;:@(e.@(e..r
+3CBDDA50: 00B331EE F2E0174B 24C9A018 3F688061  .31nr`.K$I .?h.a
+3CBDDA60: 00001312 E25CD872 89BEFF50 CC50076B  ....b\Xr.>.PLP.k
+3CBDDA70: 00                                   .               
+
+04:52:18.762 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73C4  .?.>u..?..E@.<sD
+3CBDDA40: 4000FF06 BBCCC0A8 650DC0A8 650C8EF2  @...;L@(e.@(e..r
+3CBDDA50: 00B331EE F2F3174B 24DCA010 3F55E552  .31nrs.K$\ .?UeR
+3CBDDA60: 00001312 2B8CECBC 1C15893F CC325A29  ....+.l<...?L2Z)
+3CBDDA70: 00                                   .               
+
+04:52:19.788 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7349  .?.>u..?..E@.<sI
+3CBDDA40: 4000FF06 F72A0ADE 7D660ADE 7D6500B3  @...w*.^}f.^}e.3
+3CBDDA50: D3C7FC09 FEB7F485 259DA010 3E71DA6B  SG|.~7t.%. .>qZk
+3CBDDA60: 00001312 6FD0A72E E5267874 66B7BF83  ....oP'.e&xtf7?.
+3CBDDA70: 00                                   .               
+
+ --More--         04:52:21.359 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEE0  0G.>u..?..E@.On`
+3CBDDA40: 40000106 42010AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB707E3D 9CA2A018 3A98F91B  d.rZ+p~=." .:.y.
+3CBDDA60: 00001312 7EEA164B E4544479 7EAD7BAB  ....~j.KdTDy~-{+
+3CBDDA70: 00                                   .               
+
+04:52:28.286 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 00289807  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D8690ADE 79720ADE 79714033  @...Xi.^yr.^yq@3
+3CBDDA50: 00B356BD 0F67C787 6BC15010 3A9A9247  .3V=.gG.kAP.:..G
+3CBDDA60: 00000000 00000000 E4                 ........d       
+
+04:52:31.052 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E1FF  .?.>u..?..E@.(a.
+3CBDDA40: 4000FF06 88900ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24FECE5A 72335010 3F2F1E1E  .Z?n$~NZr3P.?/..
+3CBDDA60: 00000000 00000000 E4                 ........d       
+
+04:52:37.499 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32E4  l?.>u..?..E@.<2d
+3CBDDA40: 40000106 FCB1C0A8 640BC0A8 640AA504  @...|1@(d.@(d.%.
+3CBDDA50: 00B36B14 154F6395 8A9CA010 3EF64932  .3k..Oc... .>vI2
+3CBDDA60: 00001312 A620AD11 A57CC71E A14DD236  ....& -.%|G.!MR6
+3CBDDA70: 00                                   .               
+
+04:52:39.547 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC22B  l?.>u..?..E@.<B+
+3CBDDA40: 40000106 AE290ADE 79760ADE 7975C93F  @....).^yv.^yuI?
+3CBDDA50: 00B37877 138ED90C 7E87A010 3E9726D3  .3xw..Y.~. .>.&S
+3CBDDA60: 00001312 BAAA025C 3844249F 99B3FFDE  ....:*.\8D$..3.^
+3CBDDA70: 00                                   .               
+
+04:52:44.911 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF59F  l?.>u..?..E@.Ou.
+3CBDDA40: 40000106 7A420ADE 79A60ADE 79A500B3  @...zB.^y&.^y%.3
+3CBDDA50: 9B4A065A A744A74A 6C76A018 3EF67562  .J.Z'D'Jlv .>vub
+3CBDDA60: 00001312 1E194F9D F7B8DB60 08EB15FE  ......O.w8[`.k.~
+3CBDDA70: 00                                   .               
+
+ --More--         04:52:47.437 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C635E  .?.>u..?..E@.<c^
+3CBDDA40: 4000FF06 068E0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 69AC72C3 ABA0A010 3F2F754A  .3..i,rC+  .?/uJ
+3CBDDA60: 00001312 B8FD5FB7 3116ACE4 BD604355  ....8}_71.,d=`CU
+3CBDDA70: 00                                   .               
+
+04:52:49.011 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE200  .?.>u..?..E@.;b.
+3CBDDA40: 4000FF06 887C0ADE 7D620ADE 7D6100B3  @....|.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 24FECE5A 72335018 3F2F19F0  .Z?n$~NZr3P.?/.p
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:52:53.105 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC22C  l?.>u..?..E@.OB,
+3CBDDA40: 40000106 AE150ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 138ED90C 7E87A018 3E9771CC  .3xw..Y.~. .>.qL
+3CBDDA60: 00001312 3AF6316F 139D7915 8C93552C  ....:v1o..y...U,
+3CBDDA70: 00                                   .               
+
+04:52:56.176 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32E5  l?.>u..?..E@.O2e
+3CBDDA40: 40000106 FC9DC0A8 640BC0A8 640AA504  @...|.@(d.@(d.%.
+3CBDDA50: 00B36B14 154F6395 8A9CA018 3EF69BAF  .3k..Oc... .>v./
+3CBDDA60: 00001312 8F335694 E923D40A 7F2DFD0F  .....3V.i#T..-}.
+3CBDDA70: 00                                   .               
+
+04:52:56.956 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF5A0  l?.>u..?..E@.<u 
+3CBDDA40: 40000106 7A540ADE 79A60ADE 79A500B3  @...zT.^y&.^y%.3
+3CBDDA50: 9B4A065A A757A74A 6C89A010 3EE3572A  .J.Z'W'Jl. .>cW*
+3CBDDA60: 00001312 6455F54C ADEE5A85 EF9F3675  ....dUuL-nZ.o.6u
+3CBDDA70: 00                                   .               
+
+04:52:59.248 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B9808  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D8550ADE 79720ADE 79714033  @...XU.^yr.^yq@3
+3CBDDA50: 00B356BD 0F67C787 6BC15018 3A9A8E19  .3V=.gG.kAP.:...
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+ --More--         3CBDDA70: 00                                   .               
+
+04:53:03.344 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F635F  .?.>u..?..E@.Oc_
+3CBDDA40: 4000FF06 067A0ADE 7DAA0ADE 7DA9633C  @....z.^}*.^})c<
+3CBDDA50: 00B30085 69AC72C3 ABA0A018 3F2F864D  .3..i,rC+  .?/.M
+3CBDDA60: 00001312 9CD09C6E 15292437 A169D6A6  .....P.n.)$7!iV&
+3CBDDA70: 00                                   .               
+
+04:53:06.417 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F734A  .?.>u..?..E@.OsJ
+3CBDDA40: 4000FF06 F7160ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FEB7F485 259DA018 3E719C59  SG|.~7t.%. .>q.Y
+3CBDDA60: 00001312 E6119CEB 5CF20F83 6002B010  ....f..k\r..`.0.
+3CBDDA70: 00                                   .               
+
+04:53:09.489 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73C5  .?.>u..?..E@.OsE
+3CBDDA40: 4000FF06 BBB8C0A8 650DC0A8 650C8EF2  @...;8@(e.@(e..r
+3CBDDA50: 00B331EE F2F3174B 24DCA018 3F554B66  .31nrs.K$\ .?UKf
+3CBDDA60: 00001312 01B868D1 86090D09 FE08A015  .....8hQ....~. .
+3CBDDA70: 00                                   .               
+
+04:53:11.535 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F2608  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 851BD871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 379F7641 457AA018 3B1AB9C3  DBD.7.vAEz .;.9C
+3CBDDA60: 00001312 24FA177A 040B4C2B 507D52C2  ....$z.z..L+P}RB
+3CBDDA70: 00                                   .               
+
+04:53:12.053 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C2609  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 852DD871 0E72D871 0E7100B3  @....-Xq.rXq.q.3
+3CBDDA50: C4C2C418 37B27641 458DA010 3B07DEFA  DBD.72vAE. .;.^z
+3CBDDA60: 00001312 0A53108F AAFA79AC 3B84E21F  .....S..*zy,;.b.
+3CBDDA70: 00                                   .               
+
+04:53:12.105 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEE1  0G.>u..?..E@.<na
+3CBDDA40: 40000106 42130AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+ --More--         3CBDDA50: E41C725A AB837E3D 9CB5A010 3A85736C  d.rZ+.~=.5 .:.sl
+3CBDDA60: 00001312 BD4FEA51 3AD201C2 E29E591C  ....=OjQ:R.Bb.Y.
+3CBDDA70: 00                                   .               
+
+04:53:15.084 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73C6  .?.>u..?..E@.<sF
+3CBDDA40: 4000FF06 BBCAC0A8 650DC0A8 650C8EF2  @...;J@(e.@(e..r
+3CBDDA50: 00B331EE F306174B 24EFA010 3F42BE7F  .31ns..K$o .?B>.
+3CBDDA60: 00001312 055D5386 0EE2D228 0E8130B0  .....]S..bR(..00
+3CBDDA70: 00                                   .               
+
+04:53:20.204 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C734B  .?.>u..?..E@.<sK
+3CBDDA40: 4000FF06 F7280ADE 7D660ADE 7D6500B3  @...w(.^}f.^}e.3
+3CBDDA50: D3C7FC09 FECAF485 25B0A010 3E5EB60A  SG|.~Jt.%0 .>^6.
+3CBDDA60: 00001312 A68A939F 6B1EC5D1 865E2B40  ....&...k.EQ.^+@
+3CBDDA70: 00                                   .               
+
+04:53:21.775 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEE2  0G.>u..?..E@.Onb
+3CBDDA40: 40000106 41FF0AAA 995A0AAA 995900B3  @...A..*.Z.*.Y.3
+3CBDDA50: E41C725A AB837E3D 9CB5A018 3A8515E7  d.rZ+.~=.5 .:..g
+3CBDDA60: 00001312 245AFE48 CB4A73C4 A9378F5D  ....$Z~HKJsD)7.]
+3CBDDA70: 00                                   .               
+
+04:53:22.559 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 00289809  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D8670ADE 79720ADE 79714033  @...Xg.^yr.^yq@3
+3CBDDA50: 00B356BD 0F7AC787 6BD45010 3A879234  .3V=.zG.kTP.:..4
+3CBDDA60: 00000000 00000000 CB                 ........K       
+
+04:53:23.275 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E201  .?.>u..?..E@.(b.
+3CBDDA40: 4000FF06 888E0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2511CE5A 72465010 3F1C1E0B  .Z?n%.NZrFP.?...
+3CBDDA60: 00000000 00000000 CB                 ........K       
+
+04:53:34.847 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32E6  l?.>u..?..E@.<2f
+3CBDDA40: 40000106 FCAFC0A8 640BC0A8 640AA504  @...|/@(d.@(d.%.
+ --More--         3CBDDA50: 00B36B14 15626395 8AAFA010 3EE3B5A3  .3k..bc../ .>c5#
+3CBDDA60: 00001312 8E953769 71C85FD4 C8B1B55B  ......7iqH_TH15[
+3CBDDA70: 00                                   .               
+
+04:53:34.849 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC22D  l?.>u..?..E@.<B-
+3CBDDA40: 40000106 AE270ADE 79760ADE 7975C93F  @....'.^yv.^yuI?
+3CBDDA50: 00B37877 13A1D90C 7E9AA010 3E84F80E  .3xw.!Y.~. .>.x.
+3CBDDA60: 00001312 17DCD1A3 741D37CA DF301F6A  .....\Q#t.7J_0.j
+3CBDDA70: 00                                   .               
+
+04:53:41.708 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6360  .?.>u..?..E@.<c`
+3CBDDA40: 4000FF06 068C0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 69BF72C3 ABB3A010 3F1CF805  .3..i?rC+3 .?.x.
+3CBDDA60: 00001312 D37C352B B1C7C472 52F6DF18  ....S|5+1GDrRv_.
+3CBDDA70: 00                                   .               
+
+04:53:44.304 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF5A1  l?.>u..?..E@.Ou!
+3CBDDA40: 40000106 7A400ADE 79A60ADE 79A500B3  @...z@.^y&.^y%.3
+3CBDDA50: 9B4A065A A757A74A 6C89A018 3EE3B1D5  .J.Z'W'Jl. .>c1U
+3CBDDA60: 00001312 F62D91BD B83ECBDC AACE89E7  ....v-.=8>K\*N.g
+3CBDDA70: 00                                   .               
+
+04:53:46.353 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE202  .?.>u..?..E@.;b.
+3CBDDA40: 4000FF06 887A0ADE 7D620ADE 7D6100B3  @....z.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2511CE5A 72465018 3F1C19DD  .Z?n%.NZrFP.?..]
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:53:49.425 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B980A  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D8530ADE 79720ADE 79714033  @...XS.^yr.^yq@3
+3CBDDA50: 00B356BD 0F7AC787 6BD45018 3A878E06  .3V=.zG.kTP.:...
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:53:51.473 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+ --More--         3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC22E  l?.>u..?..E@.OB.
+3CBDDA40: 40000106 AE130ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 13A1D90C 7E9AA018 3E84BC09  .3xw.!Y.~. .>.<.
+3CBDDA60: 00001312 50232C96 A4583EBC 486592CA  ....P#,.$X><He.J
+3CBDDA70: 00                                   .               
+
+04:53:53.524 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32E7  l?.>u..?..E@.O2g
+3CBDDA40: 40000106 FC9BC0A8 640BC0A8 640AA504  @...|.@(d.@(d.%.
+3CBDDA50: 00B36B14 15626395 8AAFA018 3EE3678B  .3k..bc../ .>cg.
+3CBDDA60: 00001312 0002EE33 C82F740B AA8990F8  ......n3H/t.*..x
+3CBDDA70: 00                                   .               
+
+04:53:54.546 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6361  .?.>u..?..E@.Oca
+3CBDDA40: 4000FF06 06780ADE 7DAA0ADE 7DA9633C  @....x.^}*.^})c<
+3CBDDA50: 00B30085 69BF72C3 ABB3A018 3F1CC87C  .3..i?rC+3 .?.H|
+3CBDDA60: 00001312 533A1BB6 BDCAFBE9 CB67F5C0  ....S:.6=J{iKgu@
+3CBDDA70: 00                                   .               
+
+04:53:55.327 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF5A2  l?.>u..?..E@.<u"
+3CBDDA40: 40000106 7A520ADE 79A60ADE 79A500B3  @...zR.^y&.^y%.3
+3CBDDA50: 9B4A065A A76AA74A 6C9CA010 3ED0C5B6  .J.Z'j'Jl. .>PE6
+3CBDDA60: 00001312 D26535A6 D03E207C 74BAD007  ....Re5&P> |t:P.
+3CBDDA70: 00                                   .               
+
+04:54:02.740 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73C7  .?.>u..?..E@.OsG
+3CBDDA40: 4000FF06 BBB6C0A8 650DC0A8 650C8EF2  @...;6@(e.@(e..r
+3CBDDA50: 00B331EE F306174B 24EFA018 3F4217DF  .31ns..K$o .?B._
+3CBDDA60: 00001312 D57810A2 715CD8C2 FE7D2C05  ....Ux."q\XB~},.
+3CBDDA70: 00                                   .               
+
+04:54:04.788 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F260A  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 8519D871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 37B27641 458DA018 3B07B7F5  DBD.72vAE. .;.7u
+3CBDDA60: 00001312 CEE7F562 75B0FFD2 DD333CD6  ....Ngubu0.R]3<V
+3CBDDA70: 00                                   .               
+
+04:54:06.835 UTC Sep 11 2018 : IPv4 Process    : None BD850
+ --More--         
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F734C  .?.>u..?..E@.OsL
+3CBDDA40: 4000FF06 F7140ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FECAF485 25B0A018 3E5E785B  SG|.~Jt.%0 .>^x[
+3CBDDA60: 00001312 0538702B ACFEAB03 C01E945F  .....8p+,~+.@.._
+3CBDDA70: 00                                   .               
+
+04:54:12.056 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C260B  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 852BD871 0E72D871 0E7100B3  @....+Xq.rXq.q.3
+3CBDDA50: C4C2C418 37C57641 45A0A010 3AF42A23  DBD.7EvAE  .:t*#
+3CBDDA60: 00001312 2D94B4B9 1424E1BB C078CC7C  ....-.49.$a;@xL|
+3CBDDA70: 00                                   .               
+
+04:54:12.108 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEE3  0G.>u..?..E@.<nc
+3CBDDA40: 40000106 42110AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A AB967E3D 9CC8A010 3A7216F1  d.rZ+.~=.H .:r.q
+3CBDDA60: 00001312 94B38F21 80E70A9B C3F85798  .....3.!.g..CxW.
+3CBDDA70: 00                                   .               
+
+04:54:12.428 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73C8  .?.>u..?..E@.<sH
+3CBDDA40: 4000FF06 BBC8C0A8 650DC0A8 650C8EF2  @...;H@(e.@(e..r
+3CBDDA50: 00B331EE F319174B 2502A010 3F2F1791  .31ns..K%. .?/..
+3CBDDA60: 00001312 F946DB60 55886C19 67F63433  ....yF[`U.l.gv43
+3CBDDA70: 00                                   .               
+
+04:54:12.427 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C734D  .?.>u..?..E@.<sM
+3CBDDA40: 4000FF06 F7260ADE 7D660ADE 7D6500B3  @...w&.^}f.^}e.3
+3CBDDA50: D3C7FC09 FEDDF485 25C3A010 3E4BC037  SG|.~]t.%C .>K@7
+3CBDDA60: 00001312 C572435F 94587A42 D1BC3791  ....ErC_.XzBQ<7.
+3CBDDA70: 00                                   .               
+
+04:54:12.428 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E203  .?.>u..?..E@.(b.
+3CBDDA40: 4000FF06 888C0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2524CE5A 72595010 3F091DF8  .Z?n%$NZrYP.?..x
+3CBDDA60: 00000000 00000000 94                 .........       
+
+ --More--         04:54:12.735 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 0028980B  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D8650ADE 79720ADE 79714033  @...Xe.^yr.^yq@3
+3CBDDA50: 00B356BD 0F8DC787 6BE75010 3A749221  .3V=..G.kgP.:t.!
+3CBDDA60: 00000000 00000000 94                 .........       
+
+04:54:20.150 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEE4  0G.>u..?..E@.Ond
+3CBDDA40: 40000106 41FD0AAA 995A0AAA 995900B3  @...A}.*.Z.*.Y.3
+3CBDDA50: E41C725A AB967E3D 9CC8A018 3A72836D  d.rZ+.~=.H .:r.m
+3CBDDA60: 00001312 6FEAF006 84E3DA7B E9EE017E  ....ojp..cZ{in.~
+3CBDDA70: 00                                   .               
+
+04:54:27.076 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC22F  l?.>u..?..E@.<B/
+3CBDDA40: 40000106 AE250ADE 79760ADE 7975C93F  @....%.^yv.^yuI?
+3CBDDA50: 00B37877 13B4D90C 7EADA010 3E71506C  .3xw.4Y.~- .>qPl
+3CBDDA60: 00001312 8788D242 8D2969FD B69DE3C8  ......RB.)i}6.cH
+3CBDDA70: 00                                   .               
+
+04:54:31.168 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32E8  l?.>u..?..E@.<2h
+3CBDDA40: 40000106 FCADC0A8 640BC0A8 640AA504  @...|-@(d.@(d.%.
+3CBDDA50: 00B36B14 15756395 8AC2A010 3ED03AC8  .3k..uc..B .>P:H
+3CBDDA60: 00001312 EAF3F39D C0E6EB38 8489BAE7  ....jss.@fk8..:g
+3CBDDA70: 00                                   .               
+
+04:54:32.909 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6362  .?.>u..?..E@.<cb
+3CBDDA40: 4000FF06 068A0ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 69D272C3 ABC6A010 3F09198B  .3..iRrC+F .?...
+3CBDDA60: 00001312 C02F1D27 11EE75AC 63B87437  ....@/.'.nu,c8t7
+3CBDDA70: 00                                   .               
+
+04:54:35.508 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE204  .?.>u..?..E@.;b.
+3CBDDA40: 4000FF06 88780ADE 7D620ADE 7D6100B3  @....x.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2524CE5A 72595018 3F0919CA  .Z?n%$NZrYP.?..J
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+ --More--         
+04:54:40.628 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B980C  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D8510ADE 79720ADE 79714033  @...XQ.^yr.^yq@3
+3CBDDA50: 00B356BD 0F8DC787 6BE75018 3A748DF3  .3V=..G.kgP.:t.s
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:54:43.699 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF5A3  l?.>u..?..E@.Ou#
+3CBDDA40: 40000106 7A3E0ADE 79A60ADE 79A500B3  @...z>.^y&.^y%.3
+3CBDDA50: 9B4A065A A76AA74A 6C9CA018 3ED026C2  .J.Z'j'Jl. .>P&B
+3CBDDA60: 00001312 3BDC81A2 07688847 F2802953  ....;\.".h.Gr.)S
+3CBDDA70: 00                                   .               
+
+04:54:49.844 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32E9  l?.>u..?..E@.O2i
+3CBDDA40: 40000106 FC99C0A8 640BC0A8 640AA504  @...|.@(d.@(d.%.
+3CBDDA50: 00B36B14 15756395 8AC2A018 3ED091F4  .3k..uc..B .>P.t
+3CBDDA60: 00001312 9FAE98BB 29716CFD 51C3FBE8  .......;)ql}QC{h
+3CBDDA70: 00                                   .               
+
+04:54:50.868 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC230  l?.>u..?..E@.OB0
+3CBDDA40: 40000106 AE110ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 13B4D90C 7EADA018 3E7127D3  .3xw.4Y.~- .>q'S
+3CBDDA60: 00001312 0DC3CD4A 32528226 A6E4DA83  .....CMJ2R.&&dZ.
+3CBDDA70: 00                                   .               
+
+04:54:50.868 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6363  .?.>u..?..E@.Occ
+3CBDDA40: 4000FF06 06760ADE 7DAA0ADE 7DA9633C  @....v.^}*.^})c<
+3CBDDA50: 00B30085 69D272C3 ABC6A018 3F0923F7  .3..iRrC+F .?.#w
+3CBDDA60: 00001312 BBB95C5D D6BE1EE2 8D245967  ....;9\]V>.b.$Yg
+3CBDDA70: 00                                   .               
+
+04:54:50.867 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73C9  .?.>u..?..E@.OsI
+3CBDDA40: 4000FF06 BBB4C0A8 650DC0A8 650C8EF2  @...;4@(e.@(e..r
+3CBDDA50: 00B331EE F319174B 2502A018 3F2F5F7E  .31ns..K%. .?/_~
+ --More--         3CBDDA60: 00001312 D4E72CC0 21D9DE4D F1CA4156  ....Tg,@!Y^MqJAV
+3CBDDA70: 00                                   .               
+
+04:54:51.648 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF5A4  l?.>u..?..E@.<u$
+3CBDDA40: 40000106 7A500ADE 79A60ADE 79A500B3  @...zP.^y&.^y%.3
+3CBDDA50: 9B4A065A A77DA74A 6CAFA010 3EBD054C  .J.Z'}'Jl/ .>=.L
+3CBDDA60: 00001312 55536F5C 611ED536 77C0C7ED  ....USo\a.U6w@Gm
+3CBDDA70: 00                                   .               
+
+04:54:58.037 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F734E  .?.>u..?..E@.OsN
+3CBDDA40: 4000FF06 F7120ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FEDDF485 25C3A018 3E4BC0A2  SG|.~]t.%C .>K@"
+3CBDDA60: 00001312 19368A3D 221BA144 6DEA3E1D  .....6.=".!Dmj>.
+3CBDDA70: 00                                   .               
+
+04:55:05.204 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F260C  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 8517D871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 37C57641 45A0A018 3AF420A6  DBD.7EvAE  .:t &
+3CBDDA60: 00001312 4ECA670E 3E7F7FC6 2FAED39B  ....NJg.>..F/.S.
+3CBDDA70: 00                                   .               
+
+04:55:05.984 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 0028980D  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D8630ADE 79720ADE 79714033  @...Xc.^yr.^yq@3
+3CBDDA50: 00B356BD 0FA0C787 6BFA5010 3A61920E  .3V=. G.kzP.:a..
+3CBDDA60: 00000000 00000000 3E                 ........>       
+
+04:55:06.701 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C734F  .?.>u..?..E@.<sO
+3CBDDA40: 4000FF06 F7240ADE 7D660ADE 7D6500B3  @...w$.^}f.^}e.3
+3CBDDA50: D3C7FC09 FEF0F485 25D6A010 3E38A07C  SG|.~pt.%V .>8 |
+3CBDDA60: 00001312 764BEADE 41AAC64E C404F099  ....vKj^A*FND.p.
+3CBDDA70: 00                                   .               
+
+04:55:07.724 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73CA  .?.>u..?..E@.<sJ
+3CBDDA40: 4000FF06 BBC6C0A8 650DC0A8 650C8EF2  @...;F@(e.@(e..r
+ --More--         3CBDDA50: 00B331EE F32C174B 2515A010 3F1C9ECC  .31ns,.K%. .?..L
+3CBDDA60: 00001312 39DAA7CC 29EAFE53 181B0481  ....9Z'L)j~S....
+3CBDDA70: 00                                   .               
+
+04:55:07.724 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E205  .?.>u..?..E@.(b.
+3CBDDA40: 4000FF06 888A0ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2537CE5A 726C5010 3EF61DE5  .Z?n%7NZrlP.>v.e
+3CBDDA60: 00000000 00000000 29                 ........)       
+
+04:55:11.910 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEE5  0G.>u..?..E@.<ne
+3CBDDA40: 40000106 420F0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A ABA97E3D 9CDBA010 400008B6  d.rZ+)~=.[ .@..6
+3CBDDA60: 00001312 A5191419 8B10CF53 FB5C3BFA  ....%.....OS{\;z
+3CBDDA70: 00                                   .               
+
+04:55:12.061 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C260D  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 8529D871 0E72D871 0E7100B3  @....)Xq.rXq.q.3
+3CBDDA50: C4C2C418 37D87641 45B3A010 3AE1FC38  DBD.7XvAE3 .:a|8
+3CBDDA60: 00001312 BE604E0A A62AF903 1A7A5CB0  ....>`N.&*y..z\0
+3CBDDA70: 00                                   .               
+
+04:55:19.540 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEE6  0G.>u..?..E@.Onf
+3CBDDA40: 40000106 41FB0AAA 995A0AAA 995900B3  @...A{.*.Z.*.Y.3
+3CBDDA50: E41C725A ABA97E3D 9CDBA018 4000457C  d.rZ+)~=.[ .@.E|
+3CBDDA60: 00001312 119A42AF F1DB46C3 C1018164  ......B/q[FCA..d
+3CBDDA70: 00                                   .               
+
+04:55:27.493 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC231  l?.>u..?..E@.<B1
+3CBDDA40: 40000106 AE230ADE 79760ADE 7975C93F  @....#.^yv.^yuI?
+3CBDDA50: 00B37877 13C7D90C 7EC0A010 3E5E0B83  .3xw.GY.~@ .>^..
+3CBDDA60: 00001312 B6A8F408 2171AC2B A9149227  ....6(t.!q,+)..'
+3CBDDA70: 00                                   .               
+
+04:55:30.561 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32EA  l?.>u..?..E@.<2j
+ --More--         3CBDDA40: 40000106 FCABC0A8 640BC0A8 640AA504  @...|+@(d.@(d.%.
+3CBDDA50: 00B36B14 15886395 8AD5A010 3EBD2FEE  .3k...c..U .>=/n
+3CBDDA60: 00001312 26A84A7B E6621531 71B562B9  ....&(J{fb.1q5b9
+3CBDDA70: 00                                   .               
+
+04:55:31.272 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6364  .?.>u..?..E@.<cd
+3CBDDA40: 4000FF06 06880ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 69E572C3 ABD9A010 3EF6DEEA  .3..ierC+Y .>v^j
+3CBDDA60: 00001312 4C9C3D83 B1C0448F D61337A8  ....L.=.1@D.V.7(
+3CBDDA70: 00                                   .               
+
+04:55:32.853 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE206  .?.>u..?..E@.;b.
+3CBDDA40: 4000FF06 88760ADE 7D620ADE 7D6100B3  @....v.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 2537CE5A 726C5018 3EF619B7  .Z?n%7NZrlP.>v.7
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:55:33.877 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF5A5  l?.>u..?..E@.Ou%
+3CBDDA40: 40000106 7A3C0ADE 79A60ADE 79A500B3  @...z<.^y&.^y%.3
+3CBDDA50: 9B4A065A A77DA74A 6CAFA018 3EBDDF40  .J.Z'}'Jl/ .>=_@
+3CBDDA60: 00001312 2A94BAF4 58FCAAC4 D24AD220  ....*.:tX|*DRJR 
+3CBDDA70: 00                                   .               
+
+04:55:38.994 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B980E  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D84F0ADE 79720ADE 79714033  @...XO.^yr.^yq@3
+3CBDDA50: 00B356BD 0FA0C787 6BFA5018 3A618DE0  .3V=. G.kzP.:a.`
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:55:40.021 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC232  l?.>u..?..E@.OB2
+3CBDDA40: 40000106 AE0F0ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 13C7D90C 7EC0A018 3E5E0C71  .3xw.GY.~@ .>^.q
+3CBDDA60: 00001312 BFBFA678 8B9DAAC7 86263A50  ....??&x..*G.&:P
+3CBDDA70: 00                                   .               
+
+04:55:41.044 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+ --More--         3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73CB  .?.>u..?..E@.OsK
+3CBDDA40: 4000FF06 BBB2C0A8 650DC0A8 650C8EF2  @...;2@(e.@(e..r
+3CBDDA50: 00B331EE F32C174B 2515A018 3F1CDD1E  .31ns,.K%. .?.].
+3CBDDA60: 00001312 EC25D098 A5429B33 BA962485  ....l%P.%B.3:.$.
+3CBDDA70: 00                                   .               
+
+04:55:42.850 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF5A6  l?.>u..?..E@.<u&
+3CBDDA40: 40000106 7A4E0ADE 79A60ADE 79A500B3  @...zN.^y&.^y%.3
+3CBDDA50: 9B4A065A A790A74A 6CC2A010 3EAACDE3  .J.Z'.'JlB .>*Mc
+3CBDDA60: 00001312 13A67996 20EBF9AE B30C2FF1  .....&y. ky.3./q
+3CBDDA70: 00                                   .               
+
+04:55:47.189 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32EB  l?.>u..?..E@.O2k
+3CBDDA40: 40000106 FC97C0A8 640BC0A8 640AA504  @...|.@(d.@(d.%.
+3CBDDA50: 00B36B14 15886395 8AD5A018 3EBDC291  .3k...c..U .>=B.
+3CBDDA60: 00001312 B3209CB9 751AAFFF CB783928  ....3 .9u./.Kx9(
+3CBDDA70: 00                                   .               
+
+04:55:48.213 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6365  .?.>u..?..E@.Oce
+3CBDDA40: 4000FF06 06740ADE 7DAA0ADE 7DA9633C  @....t.^}*.^})c<
+3CBDDA50: 00B30085 69E572C3 ABD9A018 3EF655B0  .3..ierC+Y .>vU0
+3CBDDA60: 00001312 A78FDDCE 70F1945C D12A6AA7  ....'.]Npq.\Q*j'
+3CBDDA70: 00                                   .               
+
+04:55:52.309 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7350  .?.>u..?..E@.OsP
+3CBDDA40: 4000FF06 F7100ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FEF0F485 25D6A018 3E385DB0  SG|.~pt.%V .>8]0
+3CBDDA60: 00001312 38985BAB 61B4002A F7A02E2B  ....8.[+a4.*w .+
+3CBDDA70: 00                                   .               
+
+04:55:59.237 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 0028980F  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D8610ADE 79720ADE 79714033  @...Xa.^yr.^yq@3
+3CBDDA50: 00B356BD 0FB3C787 6C0D5010 3A4E91FB  .3V=.3G.l.P.:N.{
+3CBDDA60: 00000000 00000000 61                 ........a       
+
+04:56:00.971 UTC Sep 11 2018 : IPv4 Process    : None BD850
+ --More--         
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7351  .?.>u..?..E@.<sQ
+3CBDDA40: 4000FF06 F7220ADE 7D660ADE 7D6500B3  @...w".^}f.^}e.3
+3CBDDA50: D3C7FC09 FF03F485 25E9A010 3E25D10E  SG|...t.%i .>%Q.
+3CBDDA60: 00001312 0C3CCD90 94F35432 CCDB8466  .....<M..sT2L[.f
+3CBDDA70: 00                                   .               
+
+04:56:01.523 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F260E  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 8515D871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 37D87641 45B3A018 3AE12F8F  DBD.7XvAE3 .:a/.
+3CBDDA60: 00001312 EA6F3164 DD6B08CD 144B059B  ....jo1d]k.M.K..
+3CBDDA70: 00                                   .               
+
+04:56:03.021 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E207  .?.>u..?..E@.(b.
+3CBDDA40: 4000FF06 88880ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 254ACE5A 727F5010 3EE31DD2  .Z?n%JNZr.P.>c.R
+3CBDDA60: 00000000 00000000 DD                 ........]       
+
+04:56:07.116 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73CC  .?.>u..?..E@.<sL
+3CBDDA40: 4000FF06 BBC4C0A8 650DC0A8 650C8EF2  @...;D@(e.@(e..r
+3CBDDA50: 00B331EE F33F174B 2528A010 3F0949AE  .31ns?.K%( .?.I.
+3CBDDA60: 00001312 41EE4D45 25E06978 C7F9EF69  ....AnME%`ixGyoi
+3CBDDA70: 00                                   .               
+
+04:56:12.061 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 003C260F  3K.>u..?..E@.<&.
+3CBDDA40: 40000106 8527D871 0E72D871 0E7100B3  @....'Xq.rXq.q.3
+3CBDDA50: C4C2C418 37EB7641 45C6A010 3ACEE9D8  DBD.7kvAEF .:NiX
+3CBDDA60: 00001312 C9E88860 8E53254A DF5B7277  ....Ih.`.S%J_[rw
+3CBDDA70: 00                                   .               
+
+04:56:12.117 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 003CEEE7  0G.>u..?..E@.<ng
+3CBDDA40: 40000106 420D0AAA 995A0AAA 995900B3  @...B..*.Z.*.Y.3
+3CBDDA50: E41C725A ABBC7E3D 9CEEA010 3FED5401  d.rZ+<~=.n .?mT.
+3CBDDA60: 00001312 82E61E63 58C1FE1A 8CD6A3DD  .....f.cXA~..V#]
+3CBDDA70: 00                                   .               
+
+ --More--         04:56:14.837 UTC Sep 11 2018 : IPv4 Process    : None BD100
+
+3CBDDA20:                            00425A9F              .BZ.
+3CBDDA30: B0C700BE 751598BF 080045C0 004FEEE8  0G.>u..?..E@.Onh
+3CBDDA40: 40000106 41F90AAA 995A0AAA 995900B3  @...Ay.*.Z.*.Y.3
+3CBDDA50: E41C725A ABBC7E3D 9CEEA018 3FED360F  d.rZ+<~=.n .?m6.
+3CBDDA60: 00001312 E4BB3D6B D5A483F8 420AD360  ....d;=kU$.xB.S`
+3CBDDA70: 00                                   .               
+
+04:56:19.714 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003C32EC  l?.>u..?..E@.<2l
+3CBDDA40: 40000106 FCA9C0A8 640BC0A8 640AA504  @...|)@(d.@(d.%.
+3CBDDA50: 00B36B14 159B6395 8AE8A010 3EAABD66  .3k...c..h .>*=f
+3CBDDA60: 00001312 89332934 50F82032 A732F4C8  .....3)4Px 2'2tH
+3CBDDA70: 00                                   .               
+
+04:56:21.764 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CC233  l?.>u..?..E@.<B3
+3CBDDA40: 40000106 AE210ADE 79760ADE 7975C93F  @....!.^yv.^yuI?
+3CBDDA50: 00B37877 13DAD90C 7ED3A010 3E4BDB23  .3xw.ZY.~S .>K[#
+3CBDDA60: 00001312 99E41818 9F1BB26A A1AD8804  .....d....2j!-..
+3CBDDA70: 00                                   .               
+
+04:56:24.052 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003BE208  .?.>u..?..E@.;b.
+3CBDDA40: 4000FF06 88740ADE 7D620ADE 7D6100B3  @....t.^}b.^}a.3
+3CBDDA50: 9C5A3F6E 254ACE5A 727F5018 3EE319A4  .Z?n%JNZr.P.>c.$
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:56:30.211 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F73CD  .?.>u..?..E@.OsM
+3CBDDA40: 4000FF06 BBB0C0A8 650DC0A8 650C8EF2  @...;0@(e.@(e..r
+3CBDDA50: 00B331EE F33F174B 2528A018 3F092FD3  .31ns?.K%( .?./S
+3CBDDA60: 00001312 2B155819 003C8950 2DD0653E  ....+.X..<.P-Pe>
+3CBDDA70: 00                                   .               
+
+04:56:30.984 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003CF5A7  l?.>u..?..E@.<u'
+3CBDDA40: 40000106 7A4D0ADE 79A60ADE 79A500B3  @...zM.^y&.^y%.3
+3CBDDA50: 9B4A065A A790A74A 6CD5A010 3E9703EC  .J.Z'.'JlU .>..l
+3CBDDA60: 00001312 19C03A00 9A080D2B CC3CBCFE  .....@:....+L<<~
+ --More--         3CBDDA70: 00                                   .               
+
+04:56:31.235 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 003B9810  l?.>u..?..E@.;..
+3CBDDA40: 40000106 D84D0ADE 79720ADE 79714033  @...XM.^yr.^yq@3
+3CBDDA50: 00B356BD 0FB3C787 6C0D5018 3A4E8DCD  .3V=.3G.l.P.:N.M
+3CBDDA60: 0000FFFF FFFFFFFF FFFFFFFF FFFFFFFF  ................
+3CBDDA70: 00                                   .               
+
+04:56:31.236 UTC Sep 11 2018 : IPv4 Process    : None BD11
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FC234  l?.>u..?..E@.OB4
+3CBDDA40: 40000106 AE0D0ADE 79760ADE 7975C93F  @......^yv.^yuI?
+3CBDDA50: 00B37877 13DAD90C 7ED3A018 3E4B0BEE  .3xw.ZY.~S .>K.n
+3CBDDA60: 00001312 9C54D601 F76CA4F9 62CA42CD  .....TV.wl$ybJBM
+3CBDDA70: 00                                   .               
+
+04:56:31.693 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C6366  .?.>u..?..E@.<cf
+3CBDDA40: 4000FF06 06860ADE 7DAA0ADE 7DA9633C  @......^}*.^})c<
+3CBDDA50: 00B30085 69F872C3 ABECA010 3EE33E21  .3..ixrC+l .>c>!
+3CBDDA60: 00001312 9D46C3BA 714D7F63 4CD57ABC  .....FC:qM.cLUz<
+3CBDDA70: 00                                   .               
+
+04:56:32.261 UTC Sep 11 2018 : IPv4 Process    : None BD13
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004FF5A8  l?.>u..?..E@.Ou(
+3CBDDA40: 40000106 7A390ADE 79A60ADE 79A500B3  @...z9.^y&.^y%.3
+3CBDDA50: 9B4A065A A790A74A 6CD5A018 3E977216  .J.Z'.'JlU .>.r.
+3CBDDA60: 00001312 C65FA851 2A9CFA08 AF6401DC  ....F_(Q*.z./d.\
+3CBDDA70: 00                                   .               
+
+04:56:38.405 UTC Sep 11 2018 : IPv4 Process    : None BD12
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 004F32ED  l?.>u..?..E@.O2m
+3CBDDA40: 40000106 FC95C0A8 640BC0A8 640AA504  @...|.@(d.@(d.%.
+3CBDDA50: 00B36B14 159B6395 8AE8A018 3EAA4F88  .3k...c..h .>*O.
+3CBDDA60: 00001312 C3479B5E 08DD1438 C0205A31  ....CG.^.].8@ Z1
+3CBDDA70: 00                                   .               
+
+04:56:43.525 UTC Sep 11 2018 : IPv4 Process    : None BD23
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F6367  .?.>u..?..E@.Ocg
+3CBDDA40: 4000FF06 06720ADE 7DAA0ADE 7DA9633C  @....r.^}*.^})c<
+ --More--         3CBDDA50: 00B30085 69F872C3 ABECA018 3EE3BC5B  .3..ixrC+l .>c<[
+3CBDDA60: 00001312 245E7D63 76983907 9A81ED97  ....$^}cv.9...m.
+3CBDDA70: 00                                   .               
+
+04:56:49.669 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 004F7352  .?.>u..?..E@.OsR
+3CBDDA40: 4000FF06 F70E0ADE 7D660ADE 7D6500B3  @...w..^}f.^}e.3
+3CBDDA50: D3C7FC09 FF03F485 25E9A018 3E25A9FC  SG|...t.%i .>%)|
+3CBDDA60: 00001312 DE48E0C5 CC367493 E1712FC8  ....^H`EL6t.aq/H
+3CBDDA70: 00                                   .               
+
+04:56:50.246 UTC Sep 11 2018 : IPv4 Process    : None BD10
+
+3CBDDA20:                            4C776DE3              Lwmc
+3CBDDA30: 6CBF00BE 751598BF 080045C0 00289811  l?.>u..?..E@.(..
+3CBDDA40: 40000106 D85F0ADE 79720ADE 79714033  @...X_.^yr.^yq@3
+3CBDDA50: 00B356BD 0FC6C787 6C205010 40008C23  .3V=.FG.l P.@..#
+3CBDDA60: 00000000 00000000 CC                 ........L       
+
+04:56:51.148 UTC Sep 11 2018 : IPv4 Process    : None BD850
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C7353  .?.>u..?..E@.<sS
+3CBDDA40: 4000FF06 F7200ADE 7D660ADE 7D6500B3  @...w .^}f.^}e.3
+3CBDDA50: D3C7FC09 FF16F485 25FCA010 3E12265D  SG|...t.%| .>.&]
+3CBDDA60: 00001312 834BAD1E 09FAE395 31654668  .....K-..zc.1eFh
+3CBDDA70: 00                                   .               
+
+04:56:57.292 UTC Sep 11 2018 : IPv4 Process    : None BD800
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 0028E209  .?.>u..?..E@.(b.
+3CBDDA40: 4000FF06 88860ADE 7D620ADE 7D6100B3  @......^}b.^}a.3
+3CBDDA50: 9C5A3F6E 255DCE5A 72925010 3ED01DBF  .Z?n%]NZr.P.>P.?
+3CBDDA60: 00000000 00000000 09                 .........       
+
+04:56:57.858 UTC Sep 11 2018 : IPv4 Process    : None BD2000
+
+3CBDDA20:                            8478AC2B              .x,+
+3CBDDA30: B3CB00BE 751598BF 080045C0 004F2610  3K.>u..?..E@.O&.
+3CBDDA40: 40000106 8513D871 0E72D871 0E7100B3  @.....Xq.rXq.q.3
+3CBDDA50: C4C2C418 37EB7641 45C6A018 3ACEDC7D  DBD.7kvAEF .:N\}
+3CBDDA60: 00001312 71B14026 6BA6B9E8 CFD59D5A  ....q1@&k&9hOU.Z
+3CBDDA70: 00                                   .               
+
+04:57:05.484 UTC Sep 11 2018 : IPv4 Process    : None BD192
+
+3CBDDA20:                            00BE7515              .>u.
+3CBDDA30: 933F00BE 751598BF 080045C0 003C73CE  .?.>u..?..E@.<sN
+3CBDDA40: 4000FF06 BBC2C0A8 650DC0A8 650C8EF2  @...;B@(e.@(e..r
+ --More--         
+que-rtr-02#                            .
 
 #... To pcap-friendly format
 #http://www.networkers-online.com/blog/2015/02/text2pcap-how-to-converts-ascii-dumps-to-pcap-files/
